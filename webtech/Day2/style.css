@@ -1,0 +1,23 @@
+.para
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    border: 2px solid red;
+    background: linear-gradient(to right , rgb(255, 216, 216) , rgb(156, 123, 123));
+}
+
+body{
+    background: linear-gradient(rgb(243, 199, 243) , rgb(183, 183, 238) , rgb(236, 177, 236));
+}
+#heading
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+
+}
+
+.links a
+{
+    display: block;
+}

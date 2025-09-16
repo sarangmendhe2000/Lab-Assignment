@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Buttons </title>
+    <style>
+        body{
+            background: linear-gradient(to right , rgba(242, 250, 253, 0.596) , rgb(255, 148, 148) , rgb(250, 197, 250));
+        }
+    </style>
+</head>     
+<body>
+    
+    <h1>Array Operations</h1>
+        
+        <input type="text" name="textField" placeholder="Enter value" id="num">
+        <br><br>
+        
+        <button onclick="addEnd()" >Add at End</button>
+        <button onclick=" addStart()">Add at Start</button>
+        <button onclick="deleteEnd()" >Delete at End</button>
+        <button onclick="deleteStart()" >Delete at Start</button>
+        <button onclick="odd()" >Get Odd</button>
+        <button onclick="even()" >Get Even</button>
+
+    
+        <h3>Array :  <span id="arrayOutput">[]</span></h3>
+        <h3>Result : <span id="result"></span></h3>
+
+    <script src="arrayOperations.js"></script>
+</body>
+</html>

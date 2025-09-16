@@ -1,0 +1,50 @@
+.table {
+    padding: 2px;
+    width: 90vw;
+}
+
+.thead {
+    background: #98f542;
+}
+
+.tbody {
+    background: #9ea6eb;
+}
+
+.button
+{
+    background-color: rgb(238, 26, 26);
+    padding: 7px;
+    border-radius: 20px;
+    color: white;
+}
+
+.table th , .table td
+{
+    text-align: center;
+    vertical-align: middle;
+}
+
+body
+{
+    background: linear-gradient(rgb(236, 230, 236) , rgb(245, 246, 248) , rgb(241, 233, 241));
+}
+p
+{
+    margin: 0;
+    padding: 0;
+}
+.btn
+{
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+btn:hover
+{
+    cursor: pointer;
+    margin: 6px;
+    padding: 11px;
+
+}

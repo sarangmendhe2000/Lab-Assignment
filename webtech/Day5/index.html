@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table entry</title>
+    <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+
+        <h1>Dynamic table entry</h1>
+
+        <label for="">Name</label>
+        <input type="text"m id="name">
+        <p id="nameError" style="visibility: hidden; color: red;">Enter Name here</p>
+        <br>
+        <label for="">Age</label>
+        <input type="text" id="age">
+        <p id="ageError" style="visibility: hidden; color: red;">Enter Age here </p>
+        <p id="ageError18" style="visibility: hidden ; color: red;">Age should not be less than 18</p>
+        <br>
+        <label for="">Email</label>
+        <input type="email" id="email">
+        <p id="emailError" style="visibility: hidden; color: red;" >Enter email here</p>
+        <br>    
+        <button class="button" onclick="SubmitEvent()">Add in table</button>
+
+
+        <br><br>
+        <h1>Table</h1>
+        <table border="1px" class="table">
+            <thead class="thead">
+                <th>Name</th>
+                <th>Age</th>
+                <th>Email</th>
+                <th>Action</th>
+            </thead>
+            <tbody class="tbody" id="tableBody">
+                <tr>
+                <td>Sarang</td>
+                <td>24</td>
+                <td>Sarang@gmail.com</td>
+                <td>
+                    <button class="btn" onclick="editRow(this)">Edit</button>
+                    <button class="btn" onclick="deleteRow(this)">Delete</button>
+                </td>
+            </tr>
+            </tbody>
+            
+        </table>
+
+        <script src="script.js"></script>
+</body>
+</html>

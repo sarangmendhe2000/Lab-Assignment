@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <style>
+        .errormessage
+        {
+            visibility: hidden;
+        }
+    </style>
+</head>
+<body>
+    <form name="form1" onsubmit="return Validate()">
+        <label for="">Name</label>
+        <input type="text" name="studName">
+        <p class="errormessage">Name must be given</p>
+        <br>
+
+        <label for="">Age</label>
+        <input type="text" name="studAge">
+        <p class="errormessage">Age of the Student should not be less than 18</p>
+        <p class="errormessage">Plase Enter valid Age</p>
+
+        <br>
+        <input type="submit" value="submit">
+    </form>
+
+    <script src="validation.js"></script>
+</body>
+</html>
