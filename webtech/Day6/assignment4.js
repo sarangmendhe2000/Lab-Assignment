@@ -12,7 +12,7 @@ function call(event)
 
     //Creating Username 
     let firstpart = fname.substring(0,2).toLowerCase()
-    let lastpart = lname.substring(lname.length  -2).toLowerCase();
+    let lastpart = lname.slice(-2).toLowerCase();
 
 
     let userName = firstpart+lastpart+age;
