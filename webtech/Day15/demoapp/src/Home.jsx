@@ -32,7 +32,7 @@ function Home()
     
 
     return(
-        <div>
+        <div className="home">
            <h1> Now Its Time To  Show The Super Power of Functional Component - Hooks</h1>
 
             <h5>UseState Hook</h5>

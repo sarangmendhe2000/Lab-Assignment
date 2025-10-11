@@ -3,7 +3,7 @@ let times = document.getElementById("time");
 
 var today = new Date();
 
-console.log(today);
+console.log(today);                       
 
 let dd = String(today.getDate());
 let mm = String(today.getMonth()+1);
