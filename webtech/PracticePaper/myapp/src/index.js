@@ -36,18 +36,11 @@ const appRouter = createBrowserRouter([
     element:  <Counter/>
   }
 ]
-
-
 )
-
-
 root.render(
   <React.StrictMode>
     <RouterProvider router = {appRouter}>
-
     </RouterProvider>
-
-
   </React.StrictMode>
 );
 
