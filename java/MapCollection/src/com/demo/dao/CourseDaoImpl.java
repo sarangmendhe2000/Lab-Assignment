@@ -1,9 +1,13 @@
 package com.demo.dao;
 
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
+import java.util.TreeMap;
+import java.util.TreeSet;
 
 public class CourseDaoImpl implements CourseDao {
 
@@ -94,9 +98,92 @@ public class CourseDaoImpl implements CourseDao {
 			
 		return false;
 	}
+	@Override
+	public Map<String, Integer> orderByKeys() {
+		
+		Map<String , Integer> tmap = new TreeMap<>();
+		Set<String> keys = hm.keySet();
+		
+		for(String s : keys)
+		{
+			tmap.put(s, hm.get(s));
+		}
+		
+		return tmap;
+	}
+	@Override
+	public Set<Map.Entry<String, Integer>> sortingByValue() {
+		
+		Set<Map.Entry<String, Integer>> smap = hm.entrySet();
+		
+		//comparator to sort by values
+		
+		Comparator<Map.Entry<String , Integer>> c =(o1,o2)->{
+			
+//			int value =  o1.getValue()-o2.getValue();
+			int value = o1.getValue().compareTo(o2.getValue());
+			
+			if(value != 0)
+			{
+				return value;
+			}
+			else
+			{
+				return o1.getKey().compareTo(o2.getKey());
+			}
+		};
+		
+		Set<Map.Entry<String, Integer>> tset = new TreeSet<>(c);
+		
+		for(Map.Entry<String, Integer> e :smap)
+		{
+			tset.add(e);
+		}
+		
+		return tset;
+	}
+	@Override
+	public boolean removeByCourseName(String courseName) {
+		
+		if( hm.containsKey(courseName) )
+		{
+			hm.remove(courseName);
+			return true;
+		}
+		else
+		{
+			return false;
+		}
+		
+	}
 	
+	@Override
+	public boolean removeByCapacity(int cap) {
+		
+		Set<String> sset = hm.keySet();
+		boolean flag = false;
+		
+		Iterator<String> it = sset.iterator();
+		
+		while(it.hasNext())
+		{
+			String s = it.next();
+			if(hm.get(s) == cap)
+			{
+				it.remove();
+				flag= true;
+			}
+		}
+		
+		if(flag=true)
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
+		
+	}
 	
-	
-	
-
 }

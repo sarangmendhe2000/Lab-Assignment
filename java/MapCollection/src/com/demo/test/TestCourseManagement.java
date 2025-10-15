@@ -1,4 +1,5 @@
 package com.demo.test;
+import java.sql.SQLOutput;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
@@ -135,12 +136,64 @@ public class TestCourseManagement {
 			
 			case 7 ->{
 				
-				Map<String , Integer> cmap = new HashMap<>();
+				Map<String , Integer> cmap = eservice.sortByKeys();
+				 
 				
 				Set<String> keys = cmap.keySet();
 				
 				keys.forEach(e->System.out.println(e + "------ , " + cmap.get(e)));
+			
+			}
+			
+			case 8 ->{
 				
+				
+				Set<Map.Entry<String , Integer>> sset = eservice.sortByValue();
+				sset.forEach(e -> System.out.println(e.getKey() + "------"+ e.getValue()));
+			}
+			
+			
+			case 9 ->{
+				
+				System.out.println("Enter Course Name to delete");
+				String courseName = sc.next();
+				
+				boolean status = eservice.deleteByCourseName(courseName);
+				
+				if(status)
+				{
+					System.out.println("Deleted Successfully ! ");
+				}
+				else
+				{
+					System.out.println("Course Not Found ");
+				}
+			}
+			
+			case 10 -> {
+				
+				System.out.println("Enter Capacity to delete that Course");
+				int cap = sc.nextInt();
+				
+				boolean status = eservice.deleteByCapacity(cap);
+				
+				if(status)
+				{
+					System.out.println("Deleted Successfully ! ");
+				}
+				else
+				{
+					System.out.println("Capacity not Found ");
+				}
+				
+				
+			}
+			
+			
+			case 11 ->{
+				
+				System.out.println("Thank you for visiting! We hope you enjoy using this application. ");
+				break; 
 			}
 			
 			

@@ -1,5 +1,6 @@
 package com.demo.service;
 import java.util.*;
+import java.util.Map.Entry;
 
 import com.demo.dao.CourseDao;
 import com.demo.dao.CourseDaoImpl;
@@ -77,5 +78,48 @@ public class CourseServiceImpl implements CourseService {
 	
 		return edao.changeByName(oname,nname);
 	}
+
+
+
+
+	@Override
+	public Map<String, Integer> sortByKeys() {
+		
+		return edao.orderByKeys();
+	}
+
+
+
+
+	@Override
+	public Set<Entry<String, Integer>> sortByValue() {
+		
+		return edao.sortingByValue();
+		
+	}
+
+
+
+
+	@Override
+	public boolean deleteByCourseName(String courseName) {
+		
+		
+		return edao.removeByCourseName(courseName);
+	}
+
+
+
+
+	@Override
+	public boolean deleteByCapacity(int cap) {
+	
+		return edao.removeByCapacity(cap);
+	}
+
+
+
+
+
 
 }

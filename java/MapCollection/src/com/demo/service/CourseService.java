@@ -1,6 +1,7 @@
 package com.demo.service;
 
 import java.util.Map;
+import java.util.Map.Entry;
 import java.util.Set;
 
 public interface CourseService {
@@ -16,5 +17,13 @@ public interface CourseService {
 	Set<String> searchByCapacity(int capacity);
 
 	boolean modifyByName(String oname, String nname);
+
+	Map<String, Integer> sortByKeys();
+
+	Set<Entry<String, Integer>> sortByValue();
+
+	boolean deleteByCourseName(String courseName);
+
+	boolean deleteByCapacity(int cap);
 
 }
