@@ -1,0 +1,90 @@
+package com.demo.dao;
+
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
+
+public class CourseDaoImpl implements CourseDao {
+
+	static Map<String,Integer> hm;
+	
+	static {
+		hm = new HashMap<>();
+		hm.put("DAC", 120);
+		hm.put("DBDA", 240);
+		hm.put("DBAI", 120);
+	}
+	@Override
+	public boolean addCourse(String cname , int capacity) {
+		
+		if(hm.containsKey(cname))
+		{
+			return false;
+		}
+		else
+		{
+			hm.put(cname, capacity);
+			return true;
+		}
+		
+	}
+	@Override
+	public Map<String, Integer> display() {
+		
+		
+		return hm;
+	}
+	@Override
+	public int searchByCourseName(String cname) {
+		
+		if(hm.containsKey(cname))
+		{
+			return hm.get(cname);
+			
+		}
+		else
+		{
+			return -1;
+		}
+	}
+	@Override
+	public boolean newCapacity(String course , int newCapacity) {
+		
+		if(hm.containsKey(course))
+				{
+//			        return  hm.replace(course, hm.get(course), newCapacity);
+					 hm.put(course , newCapacity);
+					 return true;
+			        
+				}
+		else
+		{
+			return false;
+		}
+	
+	}
+	@Override
+	public Set<String> findByCapacity(int capacity) {
+		
+		Set<String> cset = new HashSet<>();
+		
+		Set<String> keys = hm.keySet();
+		
+		for(String s : keys)
+		{
+			if(hm.get(s) == capacity)
+			{
+				cset.add(s);
+				
+			}
+		}
+		
+		return cset;
+	}
+	
+	
+	
+	
+
+}

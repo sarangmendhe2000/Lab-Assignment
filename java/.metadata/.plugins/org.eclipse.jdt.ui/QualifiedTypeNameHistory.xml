@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.time.format.DateTimeFormatter"/>
+    <fullyQualifiedTypeName name="com.demo.dao.EmployeeDao"/>
+    <fullyQualifiedTypeName name="com.demo.dao.EmployeeDoaImpl"/>
+    <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="com.demo.beans.Employee"/>
+    <fullyQualifiedTypeName name="javax.sql.rowset.serial.SQLOutputImpl"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.Comparator"/>
+    <fullyQualifiedTypeName name="java.lang.StringIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="com.demo.dao.CourseDao"/>
+    <fullyQualifiedTypeName name="com.demo.dao.CourseDaoImpl"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="org.jcp.xml.dsig.internal.SignerOutputStream"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,153 @@
+package com.demo.dao;
+
+import java.time.LocalDate;
+import java.util.HashSet;
+import java.util.Set;
+import java.util.TreeSet;
+
+import com.demo.beans.Employee;
+
+public class EmployeeDaoImpl implements EmployeeDao {
+   static Set<Employee> eset=new HashSet<>();
+   static{
+	   eset=new HashSet<>();
+   eset.add(new Employee(105,"Sangita",57565,LocalDate.of(2023,11,02)));
+   eset.add(new Employee(106,"Prajkta",56565,LocalDate.of(2023,11,02)));
+   eset.add(new Employee(100,"Sarang",56565,LocalDate.of(2024,02,02)));
+  eset.add(new Employee(101,"Neha",46565,LocalDate.of(2024,02,02)));
+  eset.add(new Employee(103,"Nita",56565,LocalDate.of(2023,11,02)));
+  eset.add(new Employee(104,"Megha",56565,LocalDate.of(2023,11,02)));
+}
+	@Override
+	public boolean save(Employee e) {
+		
+		return eset.add(e);
+		
+		
+	}
+	@Override
+	public Set<Employee> findAll() {
+		return eset;
+	}
+	@Override
+	public Employee findById(int id) {
+		for(Employee e:eset)
+		{
+			
+			if(e.getEid()==id)
+			{
+				return e;
+			}
+		}
+		return null;
+		
+	}
+	@Override
+	public Set<Employee> findByName(String name) {
+		
+		Set<Employee> es = new HashSet<>();
+		
+		for(Employee e : eset)
+		{
+			if(e.getEname().equalsIgnoreCase(name))
+			{
+				es.add(e);
+			}
+		}
+//		if(es.size()>0)
+//		{
+//			return es;
+//		}
+//		else
+//		{
+//			return null;
+//		}
+		return es;
+	}
+	@Override
+	public Set<Employee> findBySalary(double sal) {
+		
+		Set<Employee> esal = new HashSet<>();
+		
+		for(Employee e : eset)
+		{
+			if(e.getSalary() == sal)
+			{
+				esal.add(e);
+			}
+		}
+		return esal;
+	}
+	@Override
+	public boolean updateBySalary(int uid, double sall) {
+		
+		Employee e = findById(uid);
+		
+		if(e != null)
+		{
+			 e.setSalary(sall);
+			 return true;
+		}
+		else
+		{
+			return false;
+		}
+		
+	}
+	@Override
+	public boolean deleteId(int del_id) {
+		
+		for(Employee e1 : eset)
+		{
+			if(e1.getEid() == del_id)
+			{
+				eset.remove(e1);
+				return true;
+			}
+		}
+		return false;
+		
+	}
+
+	public boolean deleteBySal(double del_sal) {
+		
+
+		
+		boolean flag= false;
+		for(Employee e2 : eset)
+		{
+			if(e2.getSalary()== del_sal)
+			{
+				eset.remove(e2);
+				flag=true;
+			}
+		}
+		if(flag==true)
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
+		
+		
+		
+	
+	
+	}
+	@Override
+	public Set<Employee> sortByID() {
+		
+		Set<Employee>tset = new TreeSet<>();
+		
+		for(Employee e : eset)
+		{
+			tset.add(e);
+		}
+		
+		return tset;
+	} 
+	
+
+}

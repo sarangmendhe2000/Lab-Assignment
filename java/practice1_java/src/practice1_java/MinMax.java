@@ -1,0 +1,81 @@
+package practice1_java;
+import java.util.*;
+public class MinMax {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the size of array");
+		int size = sc.nextInt();
+		int arr [] = new int[size];
+		
+		acceptData(arr);
+		displayData(arr);
+		
+		System.out.println("maximum in array is:"+ findMin(arr));
+		
+		System.out.println("maximum in array is:"+ findMax(arr));
+		
+		System.out.println("Enter a number that you want to search in an array");
+		int pos = sc.nextInt();
+		int  pos1= searchByValue(arr,pos);
+		if(pos1!= -1) {
+			System.out.println("element found at the index : " + pos1);
+		}
+		else {
+			System.out.println("element not found");
+		}
+	}
+
+
+	private static void acceptData(int[] arr) {
+		Scanner sc= new Scanner(System.in);
+		System.out.println("Ente the number for array");
+		for(int i =0; i<arr.length; i++) {
+			arr[i]=sc.nextInt();
+		}
+		
+	}
+	
+	
+
+	private static void displayData(int[] arr) {
+		for(int i=0; i<arr.length;i++) {
+			System.out.println(i + ":" + arr[i]);
+		}
+		
+	}
+	
+	public static int findMin(int arr[]) {
+		
+		int min = arr[0];
+		for(int i=0; i<arr.length;i++) {
+			if(min>arr[i]) {
+				min = arr[i];
+			}
+		
+		}
+		return min;
+	}
+	
+	public static int findMax(int arr[]) {
+		int max= arr[0];
+		for(int i=0; i<arr.length;i++) {
+			if(max < arr[i]) {
+				max = arr[i];
+			}
+		}
+		return max;
+	}
+	
+	public static int searchByValue(int arr[], int v) {
+		
+		for(int i=0; i<arr.length;i++) {
+			if(v==arr[i]) {
+				return i;
+			}
+		}
+		return -1;
+	}
+	
+
+}

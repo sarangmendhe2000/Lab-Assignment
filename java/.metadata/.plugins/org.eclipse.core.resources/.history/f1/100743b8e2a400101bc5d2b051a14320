@@ -1,0 +1,23 @@
+package com.demo.service;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+import java.util.Scanner;
+
+import com.demo.beans.Employee;
+public class EmployeeServiceImpl implements EmployeeService {
+	
+	public boolean addEmployee() {
+		 Scanner sc=new Scanner(System.in);
+		 System.out.println("Enter Id:");
+		 int eid=sc.nextInt();
+		 System.out.println("Enter Name:");
+		 String name=sc.next();
+		 System.out.println("Enter Salary:");
+		 double sal=sc.nextDouble();
+		 System.out.println("Enter Joining Date");
+		 String Date=sc.next();
+		 LocalDate date=sc.LoacalDate.parse(Date,DateTimeFormatter.ofPattern("dd/MM/yyyy"));
+		 Employee emp=new Employee(eid,name,sal,Date);
+	}
+    
+}

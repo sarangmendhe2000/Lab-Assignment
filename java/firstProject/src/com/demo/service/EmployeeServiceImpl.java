@@ -1,0 +1,58 @@
+package com.demo.service;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+import java.util.List;
+import java.util.Scanner;
+
+import com.demo.beans.Employee;
+import com.demo.dao.EmployeeDao;
+import com.demo.dao.EmployeeDoaImpl;
+public class EmployeeServiceImpl implements EmployeeService {
+	
+	private EmployeeDao edao;
+	
+	
+	public EmployeeServiceImpl() {
+		edao=new EmployeeDoaImpl();
+	}
+	
+	public boolean addEmployee() {
+		 Scanner sc=new Scanner(System.in);
+		 System.out.println("Enter Id:");
+		 int eid=sc.nextInt();
+		 System.out.println("Enter Name:");
+		 String name=sc.next();
+		 System.out.println("Enter Salary:");
+		 double sal=sc.nextDouble();
+		 System.out.println("Enter Joining Date");
+		 String Dte=sc.next();
+		 
+		 LocalDate dt = LocalDate.parse(Dte, DateTimeFormatter.ofPattern("dd/MM/yyyy"));
+		 Employee emp=new Employee(eid,name,sal,dt);
+		 
+		return edao.save(emp);
+	}
+	
+	
+	public List<Employee> displayAll(){
+		return edao.findAll();
+	}
+	
+	public Employee searchById(int id) {
+		
+	return	edao.findById(id);
+	}
+
+	@Override
+	public List<Employee> findByName(String nm) {
+	 return edao.findByName(nm);
+		
+	}
+
+	@Override
+	public boolean deleteById(int id2) {
+	
+		return edao.removeById(id2);
+	}
+      
+}

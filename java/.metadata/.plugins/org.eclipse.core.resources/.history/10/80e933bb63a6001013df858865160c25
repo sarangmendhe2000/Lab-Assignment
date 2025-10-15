@@ -1,0 +1,12 @@
+package com.demo.service;
+
+import java.util.Set;
+
+import com.demo.beans.Employee;
+
+public interface EmployeeService {
+	
+	boolean addNewEmployee();
+
+	Set<Employee> displayAll();
+}

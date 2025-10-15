@@ -1,0 +1,19 @@
+package com.demo.service;
+
+import java.util.List;
+
+import com.demo.beans.Employee;
+
+public interface EmployeeService {
+
+	boolean addEmployee();
+
+	List<Employee> displayAll();
+
+	Employee searchById(int id);
+
+	List<Employee> findByName(String nm);
+
+	boolean deleteById(int id2);
+
+}

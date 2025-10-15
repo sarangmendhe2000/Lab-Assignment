@@ -1,0 +1,15 @@
+package com.demo.dao;
+
+import java.util.Map;
+
+public interface CourseDao {
+
+	boolean addCourse(String cname , int capacity);
+
+	Map<String, Integer> display();
+
+	int searchByCourseName(String cname);
+
+	boolean newCapacity(String course , int newCapacity);
+
+}

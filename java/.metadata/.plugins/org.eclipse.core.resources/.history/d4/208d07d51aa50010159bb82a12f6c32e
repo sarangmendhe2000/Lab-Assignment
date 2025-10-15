@@ -1,0 +1,62 @@
+package com.demo.test;
+
+import java.util.List;
+import java.util.Scanner;
+
+import com.demo.beans.Employee;
+import com.demo.service.EmployeeService;
+import com.demo.service.EmployeeServiceImpl;
+public class TestEmployeeManagement {
+
+	public static void main(String[] args) {
+	Scanner sc=new  Scanner(System.in);
+	
+	EmployeeService eservice=new EmployeeServiceImpl();
+	
+	int choice;
+	do {
+	System.out.println("1.Add New Employee ");
+	System.out.println("2. Display All Employee");
+	System.out.println("3. Search by Id");
+	System.out.println("4.Search by Name");
+	System.out.println("5. Update Salary");
+	System.out.println("6.Delete Sal");
+	System.out.println("7.Delete by Id");
+	System.out.println("8.Delete by Salary");
+	System.out.println("9.Search by Salary");
+	System.out.println("10.Sort by salary");
+	
+	System.out.println("Enter choice");
+	choice=sc.nextInt();
+	
+	
+	switch(choice) {
+	case 1:
+		boolean st=eservice.addEmployee();
+		if(st) {
+		System.out.println("Added Successfully!");
+		}else
+		{
+			System.out.println("Error: not added");
+		}
+		break;
+	case 2:
+		List <Employee>result=eservice.displayAll();
+		result.forEach(System.out::println);
+		break;
+	case 3:
+		System.out.println("Enter Id for search:");
+		int id=sc.nextInt();
+		Employee emp=eservice.SearchById();
+		if(emp!=null) {
+			System.out.println(emp);
+			
+		}
+		else {
+			System.out.println("Not found");
+		}
+		break;
+	}
+	}while(choice!=10);
+	}
+}

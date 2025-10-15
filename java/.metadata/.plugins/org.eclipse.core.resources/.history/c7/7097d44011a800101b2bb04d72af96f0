@@ -1,0 +1,96 @@
+package com.demo.service;
+
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+import java.util.Scanner;
+import java.util.Set;
+
+import com.demo.beans.Employee;
+import com.demo.dao.EmployeeDao;
+import com.demo.dao.EmployeeDaoImpl;
+
+public class EmployeeServiceImpl implements EmployeeService{
+	private EmployeeDao edao;
+	
+
+	public EmployeeServiceImpl() {
+		super();
+		this.edao =new EmployeeDaoImpl();
+	}
+
+
+	@Override
+	public boolean addNewEmployee() {
+		
+		Scanner sc=new Scanner(System.in);
+		
+		
+		
+		System.out.println("Enter id") ;
+		int id=sc.nextInt();
+		System.out.println("Enter Name:");
+		String nm=sc.next();
+		System.out.println("Enter Salary:");
+		double sal=sc.nextDouble();
+		System.out.println("Enter Date:(dd/MM/yyyy)");
+		String date=sc.next();
+		LocalDate dt= LocalDate.parse(date,DateTimeFormatter.ofPattern("dd/MM/yyyy"));
+		
+		// create object to pass the data to Employee class
+		
+		Employee e=new Employee(id,nm,sal,dt);
+		
+		
+		
+		return edao.save(e);
+	}
+
+
+	@Override
+	public Set<Employee> displayAll() {
+		
+		return edao.findAll();
+	}
+
+
+	@Override
+	public Employee displayById(int id) {
+		return edao.findById(id);
+	}
+
+
+	@Override
+	public Set<Employee> searchByName(String name) {
+	
+		return edao.findByName(name);
+	}
+
+
+	@Override
+	public Set<Employee> searchBySalary(double sal) {
+		
+		return edao.findBySalary(sal);
+	}
+
+
+	@Override
+	public boolean updateBySalary(int uid, double sall) {
+		
+		
+		return edao.updateBySalary(uid , sall);
+	}
+
+
+	@Override
+	public boolean deleteById(int del_id) {
+		// TODO Auto-generated method stub
+		
+		return edao.deleteId(del_id);
+	}
+
+
+	@Override
+	public boolean deleteBySalary(double del_sal) {
+		
+		return edao.deleteBySal(del_sal);
+	}}

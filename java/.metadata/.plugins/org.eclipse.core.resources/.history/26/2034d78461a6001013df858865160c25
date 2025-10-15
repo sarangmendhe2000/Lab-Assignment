@@ -1,0 +1,45 @@
+package com.demo.beans;
+
+import java.time.LocalDate;
+
+public class Employee {
+ private int eid;
+ private String ename;
+ private double salary;
+  private LocalDate date;
+  
+  
+  
+  
+public int getEid() {
+	return eid;
+}
+public void setEid(int eid) {
+	this.eid = eid;
+}
+public String getEname() {
+	return ename;
+}
+public void setEname(String ename) {
+	this.ename = ename;
+}
+public double getSalary() {
+	return salary;
+}
+public void setSalary(double salary) {
+	this.salary = salary;
+}
+public LocalDate getDate() {
+	return date;
+}
+public void setDate(LocalDate date) {
+	this.date = date;
+}
+@Override
+public String toString() {
+	return "Employee [eid=" + eid + ", ename=" + ename + ", salary=" + salary + ", date=" + date + "]";
+}
+  
+  
+  
+}

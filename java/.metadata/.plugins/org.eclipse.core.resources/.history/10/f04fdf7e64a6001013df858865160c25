@@ -1,0 +1,27 @@
+package com.demo.dao;
+
+import java.util.HashSet;
+import java.util.Set;
+
+import com.demo.beans.Employee;
+
+public class EmployeeDaoImpl implements EmployeeDao {
+   static Set<Employee> eset=new HashSet<>();
+	@Override
+	public boolean save(Employee e) {
+		
+		return eset.add(e);
+		
+		
+	}
+	@Override
+	public Set<Employee> findAll() {
+		return eset;
+	}
+	@Override
+	public Employee findById() {
+		
+		return null;
+	}
+
+}

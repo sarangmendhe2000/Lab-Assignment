@@ -1,0 +1,67 @@
+package com.demo.dao;
+
+import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.List;
+
+import com.demo.beans.Employee;
+
+public class EmployeeDoaImpl  implements EmployeeDao {
+	
+	static List<Employee> elist;
+	static {
+		elist=new ArrayList<>();
+		
+		elist.add(new Employee(101,"shruti" , 100000 , LocalDate.of(2025, 05, 15)));
+		elist.add(new Employee(102 , "Ishika" , 20000 , LocalDate.of(2025,04,14)));
+		elist.add(new Employee(103 , "shristi" , 30000 , LocalDate.of(2025,06,25) ));
+		elist.add(new Employee(104 , "Ishika" , 250000 , LocalDate.of(2025, 10, 10)));
+		elist.add(new Employee(105 , "Khushi" , 30000 , LocalDate.of(2025, 10, 20)));
+		
+		
+	}
+	
+	
+
+	@Override
+	public boolean save(Employee emp) {
+		elist.add(emp);
+				return true;
+	}
+
+	@Override
+	public List<Employee> findAll() {
+		
+		return elist;
+	}
+
+	@Override
+	public Employee findById(int id) {
+		
+		int pos=elist.indexOf(new Employee(id));
+		if(pos!=-1) {
+			
+			return elist.get(pos);
+		}
+		
+		return null;
+	}
+	
+
+	@Override
+	public boolean removeById(int eid) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public List<Employee> findByName(String nm) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	
+	
+
+	
+}

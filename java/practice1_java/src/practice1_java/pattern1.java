@@ -1,0 +1,110 @@
+package practice1_java;
+import java.util.*;
+public class pattern1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// now trying the patterns
+		System.out.println("Enter the no of rows and columns");
+		Scanner sc=new Scanner(System.in);
+		int r=sc.nextInt();
+		int c=sc.nextInt();
+		
+		// rectangle pattern
+//		int arr[][]=new int[x][y];
+		for(int i=0;i<r;i++) {
+			for(int j=0;j<c;j++) {
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+		
+		// hollow rectangle
+		System.out.println("**********************\n Hollow rectangle");
+		for(int i=0;i<r;i++) {
+			for(int j=0;j<c;j++) {
+				if(i==0 || j==0 || i==(r-1)|| j==(c-1)) {
+					System.out.print("*");
+				}
+				else {
+					System.out.print(" ");
+				}
+			}
+			System.out.println();
+		}
+		
+		
+		System.out.println("**********************\n Design rectangle");
+		for(int i=0;i<r;i++) {
+			for(int j=0;j<c;j++) {
+				if(i==0 || j==0 || i==(r-1)|| j==(c-1)) {
+					System.out.print("@");
+				}
+				else {
+					System.out.print("#");
+				}
+			}
+			System.out.println();
+		}
+		
+		System.out.println("**********************\n half pryamid rectangle");
+		for(int i=1;i<=r;i++) {
+			for(int j=1;j<=i;j++) {
+			System.out.print("*");
+			}
+			for(int j=0;j<1;j++) {
+				System.out.print("@");
+
+			}
+			for(int j=0;j<=1;j++) {
+				System.out.print("#");
+
+			}
+	
+			System.out.println();
+		}
+		
+		System.out.println("**********************\n Inverted pryamid rectangle");
+		for(int i=1;i<=r;i++) {
+			for(int j=1;j<=r-i;j++) {
+			System.out.print(" ");
+			}
+			for(int j=1;j<=i;j++) {
+				System.out.print("*");
+
+			}
+			
+	
+			System.out.println();
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+//		for(int i=0;i<r;i++) {
+//			for(int j=0;j<c;j++) {
+//				if(i==0 || j==0 || i==(r-1) ||j==(c-1)) {
+//				System.out.print("*");
+//				}
+//				else {
+//					System.out.print(" ");
+//
+//				}
+//			}
+//			System.out.println();
+//		}
+		
+		
+	}
+
+}
