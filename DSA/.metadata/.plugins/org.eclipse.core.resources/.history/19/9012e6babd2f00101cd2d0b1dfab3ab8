@@ -1,0 +1,23 @@
+package com.demo.test;
+
+import com.demo.beans.DoublyLinkedList;
+
+
+public class TestDoublyLinkedList {
+
+	public static void main(String[] args) {
+		DoublyLinkedList ob=new DoublyLinkedList();
+		ob.addNode(45);
+		ob.addNode(18);
+		ob.addNode(7);
+		ob.addNode(100);
+		ob.displayData();
+		System.out.println("------------------------");
+		
+		ob.deleteByValue(7);
+		ob.deleteByValue(12);
+		ob.deleteByValue(45);
+		ob.displayData();
+	}
+
+}

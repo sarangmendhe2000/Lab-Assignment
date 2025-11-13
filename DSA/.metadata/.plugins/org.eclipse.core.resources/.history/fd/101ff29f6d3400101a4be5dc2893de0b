@@ -1,0 +1,78 @@
+package com.demo.beans;
+import java.util.Scanner;
+import com.demo.beans.AdjecencyMatrixdemo;
+import com.demo.beans.MyStackListGeneric;
+public class AdjescencyListDemo {
+
+	Node[] heads;
+	class Node{
+		int data;
+		 Node next;
+		public Node(int value) {
+			this.data= value;
+			this.next=null;
+			
+		}
+	}
+	public AdjescencyListDemo (int v) {
+		heads=new Node[v];
+	}
+	
+	public void addGraph() {
+		Scanner sc = new Scanner(System.in);
+		for(int i = 0; i<heads.length;i++) {
+			for(int j=0; j<heads.length; j++) {
+				System.out.println("edge"+i+"--->"+j+":");
+				int num = sc.nextInt();
+				if(num ==1) {
+				   Node	newNode = new Node(j); 
+				   if(heads==null) {
+					   heads[i]=newNode;
+					   
+					   }else {
+						   newNode.next= heads[i];
+						   heads[i]= newNode;
+						   
+					   }
+				}
+			}
+		}
+		
+	}
+	   public void Displaydata() {
+		   for(int i = 0; i<heads.length;i++) {
+			System.out.print("Node :"+i+"--->");
+			Node temp = heads[i];
+			while(temp!=null) {
+			   System.out.println(temp.data+"---->");
+			   temp = temp.next;
+			   
+			}
+			System.out.print("null\n");
+			
+		 }
+		   
+	  }
+	   public void dfsTraversal(int n) {
+		   MyStackListGeneric<Integer> ob = new MyStackListGeneric<Integer>();
+		   boolean[] visited = new boolean[heads.length];
+		   mystackpush(n);
+	   }
+
+	private void mystackpush() {
+	
+		
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+

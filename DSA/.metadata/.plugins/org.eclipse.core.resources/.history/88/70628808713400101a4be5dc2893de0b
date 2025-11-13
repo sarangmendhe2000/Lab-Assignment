@@ -1,0 +1,23 @@
+package com.demo.beans;
+
+
+
+public class MyStackListGeneric<T> {
+	Node top;
+	//inner class
+	class Node{
+		T data;
+		Node next;
+		//para constructor 
+		public Node(T value) {
+			this.data=value;
+		}
+	}
+	//default constructor 
+	public MyStackListGeneric() {
+		top = null;
+	}
+	public boolean 
+	
+
+}

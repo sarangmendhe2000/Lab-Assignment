@@ -1,0 +1,30 @@
+package com.demo.test;
+
+public class TestMyStackArray {
+	public static void main (String[] args) {
+		TestMyStackArray ob = new TestMyStackArray();
+		
+		ob.push(10);
+		ob.push(20);
+		ob.push(30);
+		ob.push(40);
+		ob.push(50);
+		ob.push(60);
+		while(!ob.isEmpty()) {
+			System.out.println(ob.pop());
+		}
+	}
+
+	private char[] pop() {
+		return null;
+	}
+
+	private boolean isEmpty() {
+		return false;
+	}
+
+	private void push(int i) {
+		
+	}
+}
+

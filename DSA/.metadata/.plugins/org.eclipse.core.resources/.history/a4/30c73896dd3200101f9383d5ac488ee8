@@ -1,0 +1,41 @@
+package com.demo.beans;
+
+public class MyBinarySearchTree {
+	 Node root;
+	
+	public class Node{
+		int data;
+		Node left;
+		Node right;
+		public Node(int value) {
+			this.data=value;
+			this.left=null;
+			this.right=null;	
+		}
+	}
+	
+	public MyBinarySearchTree() {
+		root = null;
+		
+	}
+	public void insertNode(Node root,int key){
+		root = insertData(root,key);
+	}
+	
+	public Node insertData(Node root,int key) {
+	Node newNode = new Node(key);
+	if(root == null) {
+		root = newNode;
+		return root;
+		
+	}else {
+		
+		if(key<root.data) {
+			root.left = insertData(root,key);
+		}else {
+			root.right = insertData(root,key);
+		}
+		return root;
+	}
+	}
+}

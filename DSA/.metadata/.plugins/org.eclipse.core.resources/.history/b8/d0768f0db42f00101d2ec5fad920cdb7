@@ -1,0 +1,35 @@
+package com.demo.test;
+
+import com.demo.beans.Employee;
+
+public class TestSinglyLinkedListEmployee {
+
+	public static void main(String[] args) {
+		
+		singlyLinkedListEmployee elist = new singlyLinkedListEmployee();
+		System.out.println("-----------------------------------------------");
+		System.out.println("Employee Object");
+		elist.addNode(new Employee(1,"sai","2345677"));
+		elist.addNode(new Employee(2,"om","12344"));
+		elist.addNode(new Employee(3,"ritu","12344"));
+		elist.addNode(new Employee(4,"rohini","12344"));
+		elist.addNode(new Employee(5,"ram","12344"));
+		elist.addNode(new Employee(6,"nikhil","12344"));
+		elist.displayData();
+		System.out.println("------------------------add-----------------------");
+		elist.addNodeByEmpno(new Employee(7,"Shubhangi","378833"),14);
+		elist.displayData();
+		System.out.println("-----------------------------------------------");
+		elist.deleteNodeByEmpno(3);
+		elist.deleteNodeByEmpno(2);
+		elist.deleteNodeByEmpno(4);
+		elist.deleteNodeByEmpno(6);
+		elist.deleteNodeByEmpno(1);
+		elist.displayData();
+		System.out.println("-----------------------------------------------");
+		elist.displayData();
+	
+
+	}
+
+}

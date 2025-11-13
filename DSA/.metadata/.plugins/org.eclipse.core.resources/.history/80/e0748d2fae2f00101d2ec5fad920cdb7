@@ -1,0 +1,14 @@
+package com.demo.test;
+import com.demo.beans.Employee;
+import com.demo.linkedlist.SinglyLinkedList;
+import com.demo.linkedlist.SinglyLinkedListEmployee;
+
+public class TestSinglyLinkedListEmployee {
+
+	public static void main(String[] args) {
+		singlyLinkedListEmployee elist = new singlyLinkedListEmployee();
+		
+
+	}
+
+}

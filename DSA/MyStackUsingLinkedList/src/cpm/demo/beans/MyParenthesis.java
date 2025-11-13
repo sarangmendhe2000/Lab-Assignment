@@ -1,0 +1,44 @@
+package cpm.demo.beans;
+
+public class MyParenthesis {
+	private static boolean MyParenthesis(String str) {
+		MyStackListGeneric<Character> st=new MyStackListGeneric<>();
+		
+		for(int i=0;i<str.length();i++) {
+			Character ch=str.charAt(i);
+			
+			if(ch=='(' || ch=='{' || ch=='[') {
+				st.push(ch);
+			}else {
+				if(st.isEmpty()) {
+					return false;
+					
+				}else {
+					Character ch1=st.pop();
+				switch(ch) {
+					case '}':
+						if(ch1!='{')
+						return false;
+						break;
+				case ')':
+						if(ch1!='(')
+						return false;
+						break;
+				case ']':
+						if(ch1!='[')
+						return false;
+						break;	
+					}
+				}
+			}
+		}
+		
+		if(st.isEmpty()) {
+			return true;
+		}else {
+			return false;
+		}
+	}
+
+}
+

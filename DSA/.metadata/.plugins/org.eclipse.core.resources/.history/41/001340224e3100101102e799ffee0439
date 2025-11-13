@@ -1,0 +1,19 @@
+package cpm.demo.stacksqueues;
+
+public class MyQueueList {
+
+ Node front,rear;
+ class Node{
+	 
+	 int data;
+	 Node next;
+	 public Node(int value) {
+		 this.data= value;
+		 this.next=null;
+		 
+	 }
+ }
+ public MyQueueList(){
+	 
+ }
+}

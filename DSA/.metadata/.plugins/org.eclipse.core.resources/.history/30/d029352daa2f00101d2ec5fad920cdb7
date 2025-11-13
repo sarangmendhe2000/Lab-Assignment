@@ -1,0 +1,42 @@
+package com.demo.beans;
+
+public class singlyLinkedListEmployee {
+	Node head;
+	class Node{
+		Employee data;
+		Node next;
+		
+		public Node(Employee data) {
+			super();
+			this.data=data;
+			this.next=null;
+		}
+		
+		public void addNode(Employee ob,int enpno) {
+			Node newNode = new Node(ob);
+			
+		}
+		
+		public void addNodeByEmployee(Employee ob,int empno) {
+			
+			if(head == null) {
+				System.out.println("List is Empty!");
+			}else {
+				Node newNode = new Node(ob);
+				Node temp = head;
+				while(temp.next != null && temp.data.getEmpno()!=empno) {
+					temp = temp.next;
+				}
+				
+				if(temp.data.getEmpno() == empno) {
+					temp.next=newNode;
+				}else {
+					System.out.println("empno not found!" + empno);
+				}
+			}
+			
+		}
+		
+	}
+
+}

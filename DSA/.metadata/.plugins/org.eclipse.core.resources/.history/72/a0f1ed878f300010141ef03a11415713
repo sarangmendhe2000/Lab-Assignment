@@ -1,0 +1,33 @@
+package com.demo.test;
+
+import com.demo.CircularLinkedList;
+import com.demo.DoublyCircularLinkedList;
+
+public class TestCircularDoublylinkedList {
+
+	public static void main(String[] args) {
+		DoublyCircularLinkedList elist=new DoublyCircularLinkedList();
+		elist.addNode(12);
+		elist.addNode(13);
+		elist.addNode(15);
+		elist.addNode(10);
+		elist.addNode(3);
+		elist.addNode(5);
+		elist.addNode(7);
+		elist.addNode(9);
+		elist.displayData();
+		elist.displayReverse();
+		elist.addByPosition(9, 23);
+		elist.addByPosition(6, 67);
+		elist.addByPosition(1, 80);
+		elist.addByPosition(20, 33);
+		elist.displayData();
+		elist.deleteByPosition(11);
+		elist.deleteByPosition(4);
+		elist.deleteByPosition(1);
+		elist.deleteByPosition(20);
+		elist.displayData();
+
+	}
+
+}

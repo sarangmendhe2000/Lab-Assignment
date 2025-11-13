@@ -1,0 +1,11 @@
+package com.demo.test;
+
+public class TestSinglyLinkedListEmployee {
+
+	public static void main(String[] args) {
+		singlyLinkedListEmployee elist = new singlyLinkedListEmployee();
+		
+
+	}
+
+}

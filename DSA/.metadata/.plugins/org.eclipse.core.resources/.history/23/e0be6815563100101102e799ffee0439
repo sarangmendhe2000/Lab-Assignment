@@ -1,0 +1,18 @@
+package cpm.demo.beans;
+
+public class MyStackListGeneric<T>{
+	Node Top;
+	class Node{
+		T data;
+		Node next;
+		public Node(T value) {
+			this.data=value;
+			
+		}
+	}
+	public void MyStackListGeneric(int value) {
+		top = null;
+		
+	}
+
+}

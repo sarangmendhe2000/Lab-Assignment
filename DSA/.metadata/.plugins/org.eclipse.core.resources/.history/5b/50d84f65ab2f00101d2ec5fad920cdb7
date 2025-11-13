@@ -1,0 +1,20 @@
+package com.demo.test;
+
+import com.demo.beans.Employee;
+import com.demo.LinkedList.singlyLinkedListEmployee;
+
+public class TestSinglyLinkedListEmployee {
+
+	public static void main(String[] args) {
+		
+		singlyLinkedListEmployee elist = new singlyLinkedListEmployee();
+		
+		
+		elist.addNode(new Employee(1,"sai","2345677"));
+		elist.addNode(new Employee(2,"om","12344"));
+		
+	
+
+	}
+
+}

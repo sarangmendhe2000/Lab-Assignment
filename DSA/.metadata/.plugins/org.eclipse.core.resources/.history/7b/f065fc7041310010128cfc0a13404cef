@@ -1,0 +1,12 @@
+package com.demo.test;
+import com.demo.beans.MyStack;
+
+public class MyTest {
+	public static void main(String[] args) {
+		
+	}
+	
+    
+	
+
+}

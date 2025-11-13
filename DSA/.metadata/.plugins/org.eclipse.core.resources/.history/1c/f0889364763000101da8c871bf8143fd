@@ -1,0 +1,88 @@
+package com.demo.beans;
+
+import com.demo.beans.DoublyLinkedList.Node;
+
+public class CircularLinkedList {
+	Node head;
+	 class node{
+		int data;
+		Node next;
+		
+	 node( int value){
+		 this.data = value;
+		 this.next =null;
+		 
+	 }
+	
+		public void addByPosition(int pos, int val) {
+			if(head==null) {
+				System.out.println("list is empty");
+				
+			}else {
+				 Node newNode = new Node(val);
+				
+				 if(pos ==1 ) {
+					 Node temp = head;
+					 newNode.next = head;
+					 newNode.prev = head.prev;
+					 newNode.prev.next = newNode;
+					 head.prev=newNode;
+					 head = newNode;
+				 }
+				 else {
+					 Node temp = head;
+					 int count =0;
+					 for(int i =0; temp.next != head && i<pos-2 ;i++) {
+						 temp = temp.next;
+						 count++;
+					 }
+					 if(count == pos-2) {
+						 newNode.next=temp.next;
+						 newNode.prev = temp;
+						 temp.next.prev=newNode;
+						 temp.next = newNode;
+					 }else {
+						 System.out.println("position out of bounds");
+					 }
+				 }
+		}
+	 }
+		public void displayData() {
+			if(head == null) {
+				System.out.println("list is empty");
+			}else {
+				Node temp = head;
+				do {
+					System.out.println(temp.data + ",");
+					temp = temp.next;
+			
+				}while(temp != head);
+		}
+}
+	 }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			 
+			
+
+
+			 
+		 

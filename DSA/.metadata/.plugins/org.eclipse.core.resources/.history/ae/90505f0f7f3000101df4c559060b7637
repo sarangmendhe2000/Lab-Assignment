@@ -1,0 +1,32 @@
+package com.demo.test;
+import com.demo.beans.CircularLinkedList;
+
+public class TestCircularLinkedList {
+
+	public static void main(String[] args) {
+		CircularLinkedList elist = new CircularLinkedList();
+	  elist.addNode(12);
+	  elist.addNode(13);
+	  elist.addNode(14);
+	  elist.addNode(15);
+	  System.out.println("----------------------------------------");
+	  System.out.println("add by position:");
+	  elist.addByPosition(2, 15);
+	  elist.addByPosition(5, 15);
+	  elist.addByPosition(10, 15);
+	  elist.displayData();
+	  System.out.println("----------------------------------------");
+	  System.out.println("delete by position:");
+	  elist.deleteByPosition(2);
+	  elist.deleteByPosition(3);
+	  elist.displayData();
+	  
+	  System.out.println("----------------------------------------");
+	  System.out.println("reverse the list:");
+	  elist.displayReverse();
+	  elist.displayData();
+	}
+
+	
+
+}

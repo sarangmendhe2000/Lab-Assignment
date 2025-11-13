@@ -1,0 +1,49 @@
+package com.demo.test;
+
+import com.demo.beans.MyBinarySearchTree;
+
+public class TestBinarySearch{
+    public static void main(String[] args) {
+        MyBinarySearchTree bst = new MyBinarySearchTree();
+
+        // Insert nodes using the corrected 'insert' method
+        bst.insertData(50);
+        bst.insertData(30);
+        bst.insert(70);
+        bst.insert(20);
+        bst.insert(40);
+        bst.insert(60);
+        bst.insert(80);
+
+        System.out.println("Nodes inserted.");
+
+        // You can add more operations here to test (e.g., traversal)
+        // For a simple run, just inserting is shown.
+    }
+}
+
+
+
+/*package com.demo.test;
+
+import com.demo.beans.MyBinarySearchTree;
+
+public class RunBinarySearchTree {
+    public static void main(String[] args) {
+        MyBinarySearchTree bst = new MyBinarySearchTree();
+
+        // Insert nodes using the corrected 'insert' method
+        bst.insert(50);
+        bst.insert(30);
+        bst.insert(70);
+        bst.insert(20);
+        bst.insert(40);
+        bst.insert(60);
+        bst.insert(80);
+
+        System.out.println("Nodes inserted.");
+
+        // You can add more operations here to test (e.g., traversal)
+        // For a simple run, just inserting is shown.
+    }
+}*/

@@ -1,0 +1,19 @@
+package com.demo.beans;
+
+import java.util.ArrayList;
+
+public class preOrderTraversal {
+	public ArrayList<Integer> preOrderTraversal(BinaryTreeNode root){
+		ArrayList<Integer> res = new ArrayList<Integer>();
+		if(root == null) {
+			return res;
+		}
+		stack<BinaryTreeNode> s = new stack<BinaryTreeNode>();
+		s.push(root);
+		while(!s.isEmpty) {
+			
+		}
+		
+	}
+
+}

@@ -1,0 +1,9 @@
+package com.demo.test;
+
+public class MyTest {
+	MyTest ob = new MyTest();
+	
+	
+	
+
+}

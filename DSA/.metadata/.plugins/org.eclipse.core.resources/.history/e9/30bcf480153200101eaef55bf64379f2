@@ -1,0 +1,78 @@
+package com.demo.beans;
+
+public class CircularQueue {
+	
+	int[] arr;
+	int front,rear;
+	
+	//default constructor
+	public CircularQueue() {
+		
+		 arr=new int[6];
+		 front =-1;
+		 rear =-1;
+		 
+	}
+	
+	//parameter constructor 
+	public CircularQueue(int size) {
+		
+		arr = new int[size];
+		front =-1;
+		rear =-1;
+		
+	}
+	
+	public boolean isFull() {
+		if(front == 0 && rear == arr.length -1) {
+			System.out.println("Queue is full ");
+			return true;
+		}
+		return false;
+	}
+	
+	public boolean isEmpty() {
+		if(front == -1) {
+			System.out.println("queue is empty");
+			return true;
+		}else {
+			if(front == rear+1 ) {
+				System.out.println("queue is empty !");
+				return true;
+			}
+		}
+			return false;
+	}
+	
+	//method for Enqueue
+		public boolean Enqueue(int val) {
+			
+			if(!isFull()) {
+				if(front == -1) {
+					front = 0;
+				}
+				rear =(rear+1)% arr.length;
+				arr [rear] = val;
+				System.out.println("added sucessfully:" +val);
+				return true;
+			}
+			return false;
+		}
+		
+		//method for Dequeue
+		public int Dequeue() {
+		if(!isEmpty()) {
+			int num = arr[front];
+			if(front == rear) {
+				front = -1;
+				rear = -1;
+			}else {
+				front = (front+1)%arr.length-1;
+			}
+			return num;
+		}
+		return -1;
+		}
+	}
+
+

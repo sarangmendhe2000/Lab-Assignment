@@ -1,0 +1,21 @@
+package com.demo.beans;
+
+public class CircularQueue {
+	
+	int[] arr;
+	int front,rear;
+	
+	public CircularQueue() {
+		
+		 arr=new int[5];
+		 front =-1;
+		 rear =-1;
+		 
+	}
+	public 
+		
+		
+		
+	}
+
+}

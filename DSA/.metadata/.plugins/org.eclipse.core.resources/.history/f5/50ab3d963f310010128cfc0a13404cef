@@ -1,0 +1,10 @@
+package com.demo.test;
+import com.demo.beans.MyStack;
+public class MyTest {
+	
+	MyStack ob=new MyStack();
+	ob.push(10);
+	
+	
+
+}

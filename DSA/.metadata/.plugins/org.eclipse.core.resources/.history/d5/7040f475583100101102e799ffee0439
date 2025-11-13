@@ -1,0 +1,25 @@
+package com.demo.test;
+import cpm.demo.beans.MyStackListGeneric;
+public class TestMystackListGeneric {
+
+	public static void main(String[] args) {
+		MyStackListGeneric<Integer> ob = new MyStackListGeneric<>();
+		ob.push(10);
+		ob.push(20);
+		ob.push(30);
+		ob.push(40);
+		ob.push(50);
+		ob.DisplayData();
+		System.out.println(ob.pop());
+		System.out.println(ob.pop());
+		System.out.println(ob.pop());
+		System.out.println(ob.pop());
+		
+		MyStackListGeneric<Integer> ob1 = new MyStackListGeneric<>();
+		
+		
+	
+		
+	}
+
+}

@@ -1,0 +1,22 @@
+package com.demo.test;
+
+import com.demo.beans.MyBinarySearchTree;
+import com.demo.beans.MyBinarySearchTree.Node;
+
+public class TestBinarySearch {
+
+	private static final Node Node = null;
+
+	public static void main(String[] args) {
+	MyBinarySearchTree bst = new MyBinarySearchTree() ;
+			
+		bst.insertNode(Node, 20);
+		bst.insertNode(null, 46);
+		bst.insertNode(null, 68);
+		bst.insertNode(null, 45);
+		bst.insertNode(null, 18);
+		
+		System.out.println("suceesfully added ");
+	}
+	
+}

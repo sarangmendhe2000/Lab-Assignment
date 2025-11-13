@@ -13,8 +13,9 @@ export default function DisplayData() {
       .catch((error) => {
         console.log("Error Fetching Data:", error);
       });
-  };
-
+  };  
+   function abc(){
+     const response = await axios.get('https://jsonplaceholder.typicode.com/posts/1');
   return (
     <div>
       <button onClick={handleFetch}>Fetch Data</button>
@@ -38,6 +39,7 @@ export default function DisplayData() {
                 <td>{todo.id}</td>
                 <td>{todo.title}</td>
                 <td>{todo.completed ? "Yes" : "No"}</td>
+                <link  button href={abc}axios />
               </tr>
             ))}
           </tbody>

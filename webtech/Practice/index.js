@@ -13,7 +13,7 @@ let min = String(today.getMinutes());
 let sec = String(today.getSeconds());
 
 let finalDate =dd+"/"+mm+"/"+yyyy;
-
+// setInterval(updateTime, 1000);
 
 console.log(dd,"/", mm,"/",yyyy);
 

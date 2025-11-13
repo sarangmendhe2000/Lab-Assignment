@@ -1,0 +1,16 @@
+package com.demo.test;
+
+import com.demo.beans.MyBinarySearchTree;
+
+public class TestBinarySearch {
+    public static void main(String[] args) {
+        MyBinarySearchTree bst = new MyBinarySearchTree();
+        bst.insertData(70);
+        bst.insertData(20);
+        bst.insertData(40);
+        bst.insertData(60);
+        bst.insertNode(110, 0);
+   
+        System.out.println("Nodes inserted in the binary search tree ..."+bst);
+    }
+}

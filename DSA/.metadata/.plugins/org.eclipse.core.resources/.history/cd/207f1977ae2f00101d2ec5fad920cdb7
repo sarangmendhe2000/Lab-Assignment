@@ -1,0 +1,48 @@
+package com.demo.linkedlist;
+
+	public class singlyLinkedListEmployee {
+			Node head;
+			class Node{
+				Employee data;
+				Node next;
+				
+				public Node(Employee data) {
+					super();
+					this.data=data;
+					this.next=null;
+				}
+			}
+				public void addNode(Employee ob) {
+					Node newNode=new Node(ob);
+					if(head == null) {
+						head = newNode;
+					}else {
+						
+						Node temp = head;
+						while(temp.next != null) {
+							temp = temp.next;
+						}
+						temp.next =newNode;
+				}
+				}
+					 public void addNodeByEmpno(Employee ob,int empno) {
+					    	if(head==null)
+					    		System.out.println("list is empty");
+					    	else {
+					    		Node newNode=new Node(ob);
+					    		//place the temp at the node which has given empno
+					    		Node temp=head;
+					    		while(temp.next!=null && temp.data.getEmpno()!=empno) {
+					    			temp=temp.next;
+					    		}
+					    		if(temp.data.getEmpno()==empno) {
+					    			newNode.next=temp.next;
+					    			temp.next=newNode;
+					    		}else {
+					    			System.out.println("empno not found "+empno);
+						}		
+		    	}
+			}
+		}
+
+}

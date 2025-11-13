@@ -1,0 +1,31 @@
+package com.demo.test;
+
+import cpm.demo.beans.MyStackListGeneric;
+
+public class TestParenthesis {
+
+	public static void main(String[] args) {
+		String str1= "{{[](){[]}}}";
+		String str2="{{}[{]}}";
+		boolean status= MyParenthesis(str1);
+		if(status) {
+			System.out.println("it is balanced parenthesis "+str1); 
+			
+		}else{
+			System.out.println("it is not balanced parenthesis");
+		}
+		
+		 status=MyParenthesis(str2);
+		if(status) {
+			System.out.println("it is balanced parenthesis "+str2);
+		}else{
+			System.out.println("it is not balanced parenthesis");
+		}
+
+	}
+
+	private static boolean MyParenthesis(String str1) {
+		return false;
+	}
+
+}

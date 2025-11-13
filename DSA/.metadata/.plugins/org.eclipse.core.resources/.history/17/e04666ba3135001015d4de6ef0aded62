@@ -1,0 +1,17 @@
+package com.demo.test;
+
+import com.demo.beans.AdjescencyListDemo;
+
+public class TestAdjescencyList {
+
+	public static void main(String[] args) {
+	AdjescencyListDemo ob = new AdjescencyListDemo(4);
+	
+	ob.addGraph();
+	ob.displaydata();
+	ob.bfsTraversal(0);
+	ob.dfsTraversal(0);
+
+	}
+
+}

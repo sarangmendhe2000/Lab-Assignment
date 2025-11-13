@@ -1,0 +1,18 @@
+package com.demo.test;
+
+import com.demo.beans.MyBinarySearchTree;
+
+public class TestBinarySearch {
+
+	public static void main(String[] args) {
+		MyBinarySearchTree ob = new MyBinarySearchTree();
+		ob.root = ob.insertData(ob.root, 10);
+		ob.root = ob.insertData(ob.root, 20);
+		ob.root = ob.insertData(ob.root, 30);
+		ob.root = ob.insertData(ob.root, 40);
+		ob.root = ob.insertData(ob.root, 50);
+		System.out.println("successfully created");
+
+	}
+
+}

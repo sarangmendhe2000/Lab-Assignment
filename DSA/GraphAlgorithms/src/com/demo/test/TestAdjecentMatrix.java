@@ -1,0 +1,14 @@
+package com.demo.test;
+
+import com.demo.beans.AdjecencyMatrixdemo;
+public class TestAdjecentMatrix {
+
+	public static void main(String[] args) {
+		AdjecencyMatrixdemo ob = new AdjecencyMatrixdemo(4);
+		ob.addGraph();
+		ob.displayGraph();
+		
+		
+	}
+
+}
