@@ -1,0 +1,70 @@
+package com.demo.service;
+
+public class CountingSort {
+	
+	//find maximum
+	
+	private static int findMax(int[] arr)
+	{
+		int max = arr[0];
+		
+		for(int i=0;i<arr.length;i++)
+		{
+			if(max<arr[i])
+			{
+				max=arr[i];
+			}
+		}
+		System.out.println("Max Element is - "+ max);
+		return max;
+		
+	}
+	
+	
+	public static void countingSortAsc(int arr[])
+	{
+		int max = findMax(arr);
+		
+		//creating new Array with size max+1
+		int [] count = new int[max+1];
+		
+		//Initialize new arr count with 0
+		
+		for(int i=0;i<=count.length;i++)
+		{
+			count[i]=0;
+		}
+		
+		//fill count array with number of occurrences
+		
+		for(int i=0;i<count.length;i++)
+		{
+			int pos = arr[i];
+			count[pos]++;
+		}
+		
+		//find cumulative sum
+		
+		for(int i=1;i<count.length;i++)
+		{
+			count[i] = count[i]+ count[i-1];
+		}
+		
+		//create output array 
+		
+		int[] output = new int[arr.length];
+		
+		// place numbers from array into output array by using cumulative sum
+		
+		for(int i=0;i<arr.length;i++)
+		{
+			int pos = arr[i];
+			count[pos]--;
+			int index = count[pos];
+			output[index] = arr[i];
+		}
+		
+		
+	}
+
+}

@@ -1,0 +1,28 @@
+package com.demo.test;
+
+import com.demo.hashing.MyHashClass;
+
+public class TestMyHashClass {
+
+	public static void main(String[] args) {
+	
+		MyHashClass obj = new MyHashClass(5);
+	
+		
+		obj.insertData(45);
+		obj.insertData(90);
+		obj.insertData(135);
+		obj.insertData(180);
+		obj.insertData(23);
+		obj.insertData(17);
+		obj.insertData(11);
+		obj.insertData(4);
+		obj.insertData(-5);
+		obj.insertData(32);
+		obj.insertData(89);
+		
+		obj.display();
+
+	}
+
+}

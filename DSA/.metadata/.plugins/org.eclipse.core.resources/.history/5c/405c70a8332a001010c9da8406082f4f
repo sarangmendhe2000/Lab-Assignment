@@ -1,0 +1,18 @@
+package com.demo.beans;
+
+public class MyArray {
+
+	
+	private int []arr;
+	private int count ;
+	
+	public MyArray () {
+		arr= new int [10];
+        count =0;
+	}
+	
+	public MyAraay(int size){
+		super();
+		arr= new int[size];
+	}
+}

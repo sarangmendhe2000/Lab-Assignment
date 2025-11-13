@@ -1,0 +1,14 @@
+package com.demo.test;
+
+import org.w3c.dom.Node;
+
+public class TestLinkedList {
+
+	public static void main(String[] args) {
+		
+		
+		Node newNode=new Node();
+
+	}
+
+}

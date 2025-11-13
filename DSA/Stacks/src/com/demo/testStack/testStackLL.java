@@ -1,0 +1,24 @@
+package com.demo.testStack;
+
+import com.demo.myStack.StackLL;
+
+public class testStackLL {
+	
+	public static void main(String[] args) {
+		
+		StackLL stk = new StackLL();
+		
+		stk.push(10);
+		stk.push(20);
+		stk.push(30);
+		stk.push(40);
+		stk.push(50);
+		
+		stk.pop();
+		stk.pop();
+		
+		
+		stk.display();
+	}
+
+}

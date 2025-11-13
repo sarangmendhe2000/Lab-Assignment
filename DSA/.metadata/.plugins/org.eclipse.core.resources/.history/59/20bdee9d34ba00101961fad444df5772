@@ -1,0 +1,26 @@
+package com.demo.test;
+
+import com.demo.service.SinglyLinkList;
+
+public class TestLinkedList {
+
+	public static void main(String[] args) {
+		
+		
+		SinglyLinkList list = new SinglyLinkList();
+		
+		list.addNode(5);
+		list.addNode(55);
+		list.addNode(555);
+		list.display();
+		
+		list.insertAtPosition(50 , 2);
+		list.display();
+		
+		list.insertAtPosition(2 , 1);
+		list.display();
+		list.insertAtPosition(600 , 6);
+		list.display();
+	}
+
+}

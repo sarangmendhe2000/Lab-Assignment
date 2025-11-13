@@ -1,0 +1,21 @@
+
+public class TestBalanceParenthesis {
+
+	public static void main(String[] args) {
+		
+		String str = "{()}}}}";
+		
+		boolean status = BalanceParenthesis.checkParenthesis(str);
+		
+		if(!status)
+		{
+			System.out.println("String is Balance");
+		}
+		else
+		{
+			System.out.println("String is not Balance ");
+		}
+
+	}
+
+}

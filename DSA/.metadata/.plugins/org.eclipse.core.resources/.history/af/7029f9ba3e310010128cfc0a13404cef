@@ -1,8 +1,0 @@
-package com.demo.test;
-
-public class MyTest {
-	Stack ob = new Stack();
-	
-	
-
-}

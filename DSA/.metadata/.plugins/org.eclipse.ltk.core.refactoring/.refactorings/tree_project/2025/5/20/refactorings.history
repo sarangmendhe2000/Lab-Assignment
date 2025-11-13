@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename compilation unit &apos;com.demo.beans.preOrderTranversal.java&apos; to &apos;preOrderTraversal.java&apos;&#x0D;&#x0A;- Original project: &apos;tree_project&apos;&#x0D;&#x0A;- Original element: &apos;com.demo.beans.preOrderTranversal.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.demo.beans.preOrderTraversal.java&apos;" description="Rename compilation unit &apos;preOrderTranversal.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;com.demo.beans{preOrderTranversal.java" name="preOrderTraversal.java" references="false" stamp="1747463478452" version="1.0"/>
-</session>

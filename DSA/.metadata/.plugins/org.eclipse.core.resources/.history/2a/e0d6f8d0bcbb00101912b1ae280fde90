@@ -1,0 +1,22 @@
+package com.demo.testStack;
+
+import com.demo.myStack.StackArray;
+
+public class testStackArray {
+
+	public static void main(String[] args) {
+		
+		StackArray stk = new StackArray(5);
+		
+		stk.push(5);
+		stk.push(10);
+		stk.push(15);
+		stk.push(20);
+		stk.push(25);
+		stk.push(30);
+		
+		
+		stk.display();
+	}
+
+}

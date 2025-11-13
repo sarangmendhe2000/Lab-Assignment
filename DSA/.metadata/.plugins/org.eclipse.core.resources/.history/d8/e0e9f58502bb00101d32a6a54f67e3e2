@@ -1,0 +1,38 @@
+package com.demo.test;
+
+import com.demo.service.DoublyCircularLL;
+
+public class TestDCLL {
+
+	public static void main(String[] args) {
+		
+		DoublyCircularLL list = new DoublyCircularLL();
+		
+		list.addDCLL(10);
+		list.addDCLL(20);
+		list.addDCLL(30);
+		list.addDCLL(40);
+		list.addDCLL(50);
+		
+		list.display();
+		
+//		list.insertAtPosition(1, 5);
+//		list.display();
+//		list.insertAtPosition(5, 25);
+//		list.display();
+		
+//		list.insertAtPosition(5, 55);
+//		list.display();
+		
+		
+//		list.addByValue(33, 35);
+//		list.display();
+		
+		
+		list.deleteFromPos(1);
+		list.display();
+		
+
+	}
+
+}

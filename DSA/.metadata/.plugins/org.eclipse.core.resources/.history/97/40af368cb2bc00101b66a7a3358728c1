@@ -1,0 +1,117 @@
+package com.demo.circularqueue;
+
+public class Circularqueue {
+		
+		int[] arr ;
+		int front;
+		int rear;
+		
+		public Circularqueue()
+		{
+			arr = new int[4];
+			front = -1;
+			rear = -1 ;
+			
+		}
+		
+		public Circularqueue(int size)
+		{
+			arr = new int[size];
+			front = -1;
+			rear = -1;
+		}
+		
+		
+		public boolean isEmpty()
+		{
+			if(front == -1)
+			{
+				System.out.println("Queue is Empty");
+				return true;
+			}
+			return false;
+		}
+		
+		
+		public boolean isFull()
+		{
+			if((front==0 && rear==arr.length-1) || front == rear+1 ) 
+			{
+				System.out.println("Queue is Full");
+				return true;
+			}
+			return false;
+		}
+		
+		//Enqueue in circular queue 
+		
+		public boolean enqueue(int val)
+		{
+			if(!isFull())
+			{
+				if(front == -1)
+				{
+					front =0;
+				}
+				
+				rear= (rear+1) % arr.length; 
+				arr[rear]= val;
+				return true;
+			}
+			
+			return false;
+		}
+		
+		
+		// Dequeue in circular queue 
+		
+		public int dequeue()
+		{
+			int n = arr[front];
+			
+			if(isEmpty())
+			{
+				return -1;
+			}
+			
+			
+			
+			
+			if(front == rear)
+			{
+				front = -1;
+				rear = -1;
+				
+			}
+			else
+			{
+				front= (front+1)%arr.length;
+			}
+			
+			return n;
+			
+			
+			
+		
+			
+		}
+		
+		
+		//Display data 
+		
+		public void display()
+		{
+			if(front == -1  ||  rear==-1)
+			{
+				System.out.println("Queue is Empty");
+			}
+			else
+			{
+				for(int i=front;i<=rear;i++)
+				{
+					System.out.print(arr[i] + "-->");
+				}
+			}
+		}
+		
+}

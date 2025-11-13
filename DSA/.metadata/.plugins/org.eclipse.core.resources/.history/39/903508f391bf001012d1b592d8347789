@@ -1,0 +1,80 @@
+package com.demo.bean;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class SingleDArr {
+
+	private int[] arr;
+	private int count;
+	
+	public SingleDArr()
+	{
+		arr= new int[6];
+		count=0;
+		
+	}
+	
+	public SingleDArr(int [] arr , int count)
+	{
+		this.arr = arr;
+		this.count = count;
+		
+		count = arr.length;
+	}
+	
+	public SingleDArr(int size)
+	{
+		arr= new int[size];
+		count=0;
+	}
+	
+	public int getCapacity()
+	{
+		return arr.length;
+	}
+	
+	public int getSize()
+	{
+		return count;
+	}
+
+	//Display Data 
+	
+	@Override
+	public String toString() {
+		return " [arr=" + Arrays.toString(arr) + "]";
+	}
+	
+	
+	public void acceptData(int size)
+	{
+		System.out.println("Enter data");
+		
+		Scanner sc = new Scanner(System.in);
+		
+		for(int i=0;i<arr.length;i++)
+		{
+			arr[i]= sc.nextInt();
+		}
+	}
+	
+	// Add Data 
+	public boolean add( int val)
+	
+	{
+		if(arr.length<count)
+		{
+			arr[count] = val;
+			count++;
+			return true;
+		}
+		
+		return false;
+	}
+	
+	
+
+	
+	
+}

@@ -1,0 +1,21 @@
+package com.demo.test;
+
+import com.demo.service.DoublyCircularLL;
+
+public class TestDCLL {
+
+	public static void main(String[] args) {
+		
+		DoublyCircularLL list = new DoublyCircularLL();
+		
+		list.addDCLL(10);
+		list.addDCLL(20);
+		list.addDCLL(30);
+		list.addDCLL(40);
+		list.addDCLL(50);
+		
+		list.display();
+
+	}
+
+}

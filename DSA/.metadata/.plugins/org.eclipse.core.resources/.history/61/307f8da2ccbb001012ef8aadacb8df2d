@@ -1,0 +1,89 @@
+package com.demo.myqueue;
+
+public class QueueLL {
+	
+	Node front;
+	Node rear;
+	
+	class Node{
+		
+		int data;
+		Node next;
+		
+		public Node (int data)
+		{
+			this.data=data;
+			this.next= null;
+		}
+		
+		
+		
+	}
+	
+	public QueueLL()
+	{
+		rear= null;
+		front = null;
+	}
+	
+	
+	public boolean isEmpty()
+	{
+		return front == null && rear==null;
+	}
+	
+	
+	public void enqueue(int val)
+	{
+		Node newnode = new Node(val);
+		
+		if(isEmpty())
+		{
+			front = newnode;
+			rear=newnode;
+		}
+		
+		else
+		{
+			rear.next = newnode;
+			rear=newnode;
+		}
+		
+		System.out.println("Added new Node !  ");
+	}
+	
+	public int dequeue()
+	{
+		if(!isEmpty())
+		{
+			Node temp= front;
+			front = front.next;
+			if(front==null)
+			{
+				rear=null;
+			}
+			temp.next= null;
+			return temp.data;
+		}
+		else
+		{
+			System.out.println("Queue is Empty ");
+			return -1;
+		}
+	}
+	
+	
+	public void display()
+	
+	{
+		Node temp = front;
+		
+		while(temp != rear )
+		{
+			System.out.print(temp.data +"->");
+			temp = temp.next;
+		}
+		System.out.println(temp.data);
+	}
+
+}

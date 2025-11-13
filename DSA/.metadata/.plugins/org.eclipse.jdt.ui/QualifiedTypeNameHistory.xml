@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.demo.bean.rotateRight"/>
-    <fullyQualifiedTypeName name="com.demo.service.arrayService"/>
-    <fullyQualifiedTypeName name="com.demo.beans.bubbleSort"/>
-    <fullyQualifiedTypeName name="com.demo.beans.selectionSort"/>
-    <fullyQualifiedTypeName name="com.demo.beans.MergeSort"/>
-    <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
-    <fullyQualifiedTypeName name="com.demo.beans.CountingSort"/>
-    <fullyQualifiedTypeName name="com.demo.beans.QuicksortAlgorithm"/>
-    <fullyQualifiedTypeName name="cpm.demo.beans.MyQueueList.Node"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="com.demo.beans.AdjecentMatrixDemo"/>
-    <fullyQualifiedTypeName name="com.demo.beans.AdjecencyMatrixdemo"/>
+    <fullyQualifiedTypeName name="java.util.stream.IntStream"/>
+    <fullyQualifiedTypeName name="java.lang.StringIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="com.demo.hashing.MyHashClass"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
-    <fullyQualifiedTypeName name="com.demo.beans.AdjescencyListDemo.Node"/>
 </qualifiedTypeNameHistroy>

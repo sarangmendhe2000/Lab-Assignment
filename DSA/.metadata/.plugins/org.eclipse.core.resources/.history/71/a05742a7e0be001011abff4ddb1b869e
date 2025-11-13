@@ -1,0 +1,14 @@
+package com.demo.test;
+
+public class TestHashClass {
+
+	public static void main(String[] args) {
+		
+		TestHashClass obj = new TestHashClass();
+		
+		obj.insertData(45);
+		
+
+	}
+
+}

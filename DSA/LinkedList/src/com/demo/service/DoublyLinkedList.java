@@ -1,0 +1,72 @@
+package com.demo.service;
+
+public class DoublyLinkedList {
+	
+	Node head;
+	class Node{
+		int data;
+		Node prev;
+		Node next;
+		
+		public Node(int data)
+		{
+			this.data= data;
+			prev= null;
+			next= null;
+		}
+	}
+	
+	public DoublyLinkedList()
+	{
+		head = null;
+	}
+	
+	
+	//Add New Node in DLL
+	
+	public void addDLL(int val)
+	{
+		Node newNode = new Node(val);
+		
+		if(head == null)
+		{
+			head= newNode;
+			
+		}
+		else
+		{
+			Node temp = head;
+			
+			while(temp.next!=null)
+			{
+				temp=temp.next;
+			}
+			
+			temp.next= newNode;
+			newNode.prev=temp;
+			
+		}
+		
+	}
+	
+	public void display()
+	{
+		if(head==null)
+		{
+			System.out.println("List is Empty");
+		}
+		
+		else
+		{
+			Node temp = head;
+			
+			while(temp.next != null)
+			{
+				System.out.print(temp.data+" <--> ");
+				temp=temp.next;
+			}
+			System.out.println(temp.data);
+		}
+	}
+
+}

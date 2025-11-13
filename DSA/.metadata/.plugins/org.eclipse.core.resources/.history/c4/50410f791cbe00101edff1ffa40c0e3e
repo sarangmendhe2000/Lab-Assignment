@@ -1,0 +1,222 @@
+package com.demo.testTree;
+
+public class MyTree {
+	
+	Node root;
+	
+	class Node{
+		int data;
+		Node left;
+		Node right;
+		
+		public Node(int data)
+		{
+			this.data = data;
+			this.left=null;
+			this.right= null;
+		}
+	}
+	
+	public MyTree()
+	{
+		root = null;
+	}
+	
+	
+	//Insert Data 
+	
+	public void insertNode(int key)
+	{
+		root = insertData(root ,key);
+	}
+
+	private Node insertData(Node root , int key)
+	{
+		Node newNode = new Node(key);
+		
+		if(root == null)
+		{
+			root = newNode;
+			return root;
+		}
+		
+		else
+		{
+			if(key < root.data)
+			{
+				root.left= insertData(root.left , key);
+			}
+			else 
+			{
+				root.right = insertData(root.right , key);
+			}
+			
+			return root;
+		}
+	}
+	
+	public void inorder()
+	{
+		System.out.println("InOrder Traversal -------");
+		inorderTraversal(root);
+		System.out.println();
+		
+	}
+	
+	private void inorderTraversal(Node root)
+	{
+		if(root != null)
+		{
+			inorderTraversal(root.left);
+			System.out.print(root.data + " ");
+			inorderTraversal(root.right);
+		}
+	}
+	
+	
+	
+	public void preOrder()
+	{
+		System.out.println("PreOrder Traversal -------");
+		preOrderTraversal(root);
+		System.out.println();
+	}
+	
+	
+	private void preOrderTraversal(Node root)
+	{
+		
+		if(root != null)
+		{
+			System.out.print(root.data+ " ");
+			preOrderTraversal(root.left);
+			preOrderTraversal(root.right);
+		}
+	}
+	
+	
+	public void postOrder()
+	{
+		System.out.println("PostOrder Traversal -------");
+		postOrderTraversal(root);
+		System.out.println();
+	}
+	
+	
+	private void postOrderTraversal(Node root)
+	{
+		
+		if(root != null)
+		{
+			postOrderTraversal(root.left);
+			postOrderTraversal(root.right);
+			System.out.print(root.data+ " ");
+			
+		}
+	}
+	
+	
+	public void deleteNode(int key)
+	{
+		root =  deleteData(root , key);
+	}
+	
+	private Node deleteData(Node root , int key)
+	{
+		if(root == null)
+		{
+			return root;
+		}
+		
+		//traverse to find the node - 
+		
+		 if (key < root.data)
+		{
+			root.left= deleteData(root.left , key);
+		}
+		
+		else if(key>root.data)
+		{
+			root.right= deleteData(root.right , key);
+		}
+		 
+		else
+		{
+			// if node is leaf node 
+			
+			if(root.left==null && root.right==null)
+			{
+				return null;
+			}
+			
+			// if node has 1 child
+			
+			else if(root.left == null)
+			{
+				return root.right;
+			}
+			else if(root.right==null)
+			{
+				return root.left;
+			}
+			
+			// if Node has 2 children
+			
+			else
+			{
+				root.data = min(root.right);
+				root.right = deleteData(root.right , root.data);
+			}
+		}
+		 
+		 return root;
+	}
+	
+	public int min(Node root)
+	{
+		int minVal = root.data;
+		
+		while(root.left != null)
+		{
+			minVal= root.left.data;
+			root=root.left;
+		}
+		
+		return minVal;
+	}
+	
+	
+	public boolean search(int key)
+	{
+		return searchBinaryTree(root , key);
+	}
+	
+	//Recursive 
+	
+	private boolean searchBinaryTree(Node root , int key)
+	{
+		if(root != null)
+		{
+			if(root.data==key)
+			{
+				System.out.println(key + " Data Found");
+				return true;
+			}
+			
+			else if(key < root.data)
+			{
+				return searchBinaryTree(root.left , key);
+			}
+			else
+			{
+				return searchBinaryTree(root.right , key);
+			}
+			
+			
+		}
+		
+		System.out.println(key + " not found ! ");
+		return false;
+	}
+
+}

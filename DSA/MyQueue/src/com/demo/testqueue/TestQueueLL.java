@@ -1,0 +1,22 @@
+package com.demo.testqueue;
+
+import com.demo.myqueue.QueueLL;
+
+public class TestQueueLL {
+
+	public static void main(String[] args) {
+		
+		QueueLL obj = new QueueLL();
+		
+		obj.enqueue(25);
+		obj.enqueue(50);
+		
+		
+		obj.dequeue();
+		
+		
+		obj.display();
+
+	}
+
+}

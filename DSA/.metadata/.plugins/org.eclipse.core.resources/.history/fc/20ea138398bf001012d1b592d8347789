@@ -1,0 +1,25 @@
+package com.demo.test;
+
+import java.util.Scanner;
+
+import com.demo.bean.SingleDArr;
+
+public class TestSingleDArray {
+
+	public static void main(String[] args) {
+		
+	Scanner sc = new Scanner(System.in);
+	
+	System.out.println("Enter the size of the array");
+	
+	int size = sc.nextInt();
+	
+	SingleDArr obj = new SingleDArr(size);
+	
+	obj.acceptData(size);
+	
+	System.out.println(obj);
+
+}
+	
+}

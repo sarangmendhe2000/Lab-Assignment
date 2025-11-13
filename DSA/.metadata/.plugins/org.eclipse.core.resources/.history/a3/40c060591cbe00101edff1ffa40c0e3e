@@ -1,0 +1,37 @@
+package com.demo.tree;
+
+import com.demo.testTree.MyTree;
+
+public class TestTree {
+
+	public static void main(String[] args) {
+		
+		MyTree obj = new MyTree();
+		
+		obj.insertNode(72);
+		obj.insertNode(84);
+		obj.insertNode(12);
+		obj.insertNode(24);
+		obj.insertNode(48);
+		obj.insertNode(60);
+		obj.insertNode(96);
+		obj.insertNode(36);
+		
+		
+		
+		obj.inorder();
+		obj.preOrder();
+		obj.postOrder();
+		
+		
+		obj.deleteNode(48);
+		obj.inorder();
+		
+		obj.search(48);
+		
+		
+		
+
+	}
+
+}

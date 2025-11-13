@@ -1,0 +1,21 @@
+package com.demo.test;
+
+import com.demo.circularqueue.Circularqueue;
+
+public class TestcircularQueue {
+
+	public static void main(String[] args) {
+	 
+		Circularqueue ob = new Circularqueue();
+		
+		ob.enqueue(5);
+		ob.enqueue(10);
+		ob.enqueue(15);
+		ob.enqueue(20);
+		ob.enqueue(25);
+		
+		ob.display();
+			
+	}
+
+}

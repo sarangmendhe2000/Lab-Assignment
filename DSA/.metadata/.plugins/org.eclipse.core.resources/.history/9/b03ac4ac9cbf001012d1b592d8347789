@@ -1,0 +1,140 @@
+package com.demo.bean;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class SingleDArr {
+
+	private int[] arr;
+	private int count;
+	
+	public SingleDArr()
+	{
+		arr= new int[6];
+		count=0;
+		
+	}
+	
+	public SingleDArr(int [] arr , int count)
+	{
+		this.arr = arr;
+		this.count = count;
+		
+		count = arr.length;
+	}
+	
+	public SingleDArr(int size)
+	{
+		arr= new int[size];
+		count=0;
+	}
+	
+	public int getCapacity()
+	{
+		return arr.length;
+	}
+	
+	public int getSize()
+	{
+		return count;
+	}
+
+	//Display Data 
+	
+	@Override
+	public String toString() {
+		return "Array =" + Arrays.toString(arr) ;
+	}
+	
+	
+	public void acceptData(int size)
+	{
+		System.out.println("Enter data");
+		
+		Scanner sc = new Scanner(System.in);
+		
+		for(int i=0;i<arr.length;i++)
+		{
+			arr[i]= sc.nextInt();
+		}
+	}
+	
+	// Add Data 
+	
+	public boolean add( int val)
+	
+	{
+		if(arr.length<count)
+		{
+			arr[count] = val;
+			count++;
+			return true;
+		}
+		
+		return false;
+	}
+	
+	// Addition of all digit 
+	
+	public void Sum()
+	{
+	
+	int sum =0;
+	for(int i=0;i<arr.length;i++)
+	{
+		sum = sum + arr[i];
+	}
+	
+	System.out.println("Addition of all digit is - " + sum);
+	
+	}
+	
+	// Factorial 
+	
+	public int factorial(int num)
+	{
+		int result = 1;
+		for(int i=1;i<=arr.length;i++)
+		{
+			result = result * i;
+		}
+		return result;
+	}
+
+	// Check Prime Number 
+	
+	public void isPrime()
+	{
+	
+		boolean flag = false;
+		
+		for(int i=0;i<arr.length;i++)
+		{
+			if(arr[i]<0 && arr[i]==1)
+			{
+				flag = false;
+			}
+			else
+			{
+				int n= arr[i];
+				
+				for(int j=2;j*j<n;j++)
+				{
+					if(n%j != 0)
+					{
+						flag= true;
+					}
+					
+				}
+				
+				if(flag==true)
+				{
+					int result =factorial(arr[i]);
+					System.out.println("Factorial of " + arr[i] + " is = "+ result);
+				}
+			}
+		}
+	}
+	
+	
+}
