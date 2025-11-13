@@ -1,0 +1,140 @@
+package com.demo.beans;
+
+import java.util.Arrays;
+
+public class MyArray {
+
+	
+	private int []arr;
+	private int count ;
+	
+	public MyArray () {
+		arr= new int [10];
+        count =0;
+	}
+	
+	public MyArray(int size){
+		super();
+		arr= new int[size];
+	}
+	
+	public MyArray (int []arr) {
+		this.arr=arr ;
+		count=arr.length;
+		}
+	
+	public void add(int x) {
+		if(count<arr.length) {
+			arr[count]=x;
+			count++;
+		}
+	}
+	
+	public int getlength() {
+		return arr.length;
+	}
+	
+	public int getsum() {
+		int sum=0;
+		for(int i=0;i<arr.length;i++) {
+			sum=sum+arr[i];
+		} return sum;
+	}
+ 
+	//rotate array for n location 
+	public void rotateArray(int x) {
+		//check n array length
+     if(x>=arr.length) {
+    	 System.out.println("Rotation is not Posiible  , x Should be "+ arr.length);
+     }else {
+    	 
+    	 for(int count=1;count<=x; count++) {
+    		 int temp =arr[0];
+    		 for(int i=1;i<arr.length;i++) {
+    			 arr[i-1]=arr[i];
+    		 }
+    		 arr[arr.length-1]=temp;
+    		 System.out.println("rotation"+count);
+    		 System.out.println(Arrays.toString(arr));
+    	 }
+     }
+	}
+	
+	
+	
+	
+	public void rotateArrayRight(int x) {
+		//check n array length
+     if(x>=arr.length) {
+    	 System.out.println("Rotation is not Posiible  , x Should be "+ arr.length);
+     }else {
+    	 
+    	 for(int count=1;count<=x; count++) {
+    		 int temp =arr[0];
+    		 for(int i=1;i<arr.length-1;i++) {
+    			 arr[i+1]=arr[i];
+    		 }
+    		 arr[arr.length-1]=temp;
+    		 System.out.println("rotation"+count);
+    		 System.out.println(Arrays.toString(arr));
+    	 }
+     }
+	}
+	//revers array
+	public int [] reverseArray(boolean flag){
+          if(flag) {
+        	  //inplace reverse
+        	  for(int i=0,j=arr.length-1;i<j; i++,j--) {
+        		  int temp=arr[i];
+        		  arr[i]=arr[j];
+        		  arr[j]=temp ;
+        		 }
+        	  return arr ;
+          }else {
+        	  //using new array 
+        	  int []arr1=new int [arr.length];
+        	  for(int i=arr.length-1,j=0 ;i>=0;i-- ,j++) {
+        		  arr1[j]=arr[i];
+        		  
+        	  }return arr1;
+          }
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	@Override
+	public String toString() {
+		return "MyArray [arr=" + Arrays.toString(arr) + ", count=" + count + "]";
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

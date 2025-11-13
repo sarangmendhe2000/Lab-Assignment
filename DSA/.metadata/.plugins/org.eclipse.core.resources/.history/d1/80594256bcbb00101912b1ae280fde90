@@ -1,0 +1,10 @@
+package com.demo.testStack;
+
+public class testStackArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

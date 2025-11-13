@@ -1,0 +1,104 @@
+package com.demo.beans;
+
+import java.util.Arrays;
+
+public class MyArray {
+	
+	private int [] arr;
+	private int count;
+	
+	
+	public MyArray()
+	{
+		arr= new int[10];
+		count = 0;
+	}
+	
+	
+	public MyArray(int []arr , int count)
+	{
+		this.arr= arr;
+		this.count = count;
+		
+		count = arr.length;
+		
+	}
+	
+	public MyArray(int size)
+	{
+		arr = new int[size];
+		count = 0;
+	}
+	
+	public int getCapacity()
+	{
+		return arr.length;
+	}
+	
+	public int getSize()
+	{
+		return count;
+	}
+	
+	
+	
+	//Add at the end 
+	
+	@Override
+	public String toString() {
+		return "MyArray " + Arrays.toString(arr);
+	}
+
+
+	public boolean add(int x)
+	{
+		if(count<arr.length)
+		{
+			arr[count]=x;
+			count++;
+			return true;
+		}
+	return false;
+		
+	}
+	
+	// Add at specific position
+	
+	
+	public boolean addAtPos(int pos , int val)
+	{
+		if(count < arr.length && pos < count )
+		{
+			for(int i = count ; i>pos-1 ; i--)
+			{
+				arr[i]= arr[i-1];
+			}
+			
+	// Adding value at specific position 
+			
+			arr[pos-1] = val;
+			count++;
+			
+			return true;
+		}
+		return false;
+	}
+	
+	
+	//Delete By position
+	
+	public boolean deleteByPos(int pos)
+	{
+		if(pos < count)
+		{
+			for(int i=pos-1;i<count-1;i++)
+			{
+				arr[i]= arr[i+1];
+				return true;
+			}
+		}
+		return false;
+	}
+	
+	
+}

@@ -1,0 +1,146 @@
+package com.demo.service;
+
+
+public class SinglyLinkList {
+    
+	Node head;
+	 class Node{
+		int data;
+		Node next;
+		
+		public Node(int data)
+		{
+			this.data=data;
+			next = null;
+		}
+		
+	}
+	
+	
+	public SinglyLinkList()
+	{
+		head = null;
+	}
+	
+	public void addNode(int val)
+	{
+	
+	Node newNode = new Node(val);
+	
+	if(head == null)
+	{
+		head = newNode;
+	}
+	else
+	{
+		Node temp=head;
+		while(temp.next!=null)
+		{
+			temp=temp.next;
+		}
+		
+		temp.next= newNode;
+	}
+}
+	
+	// Display Linked list
+	
+	public void display()
+	{
+		
+	if(head == null)
+	{
+		System.out.println("List is empty");
+	}
+	else
+	{
+		Node temp = head;
+		while(temp.next != null)
+		{
+			System.out.print(temp.data + "--> ");
+			temp=temp.next;
+		}
+		System.out.println(temp.data);
+	}
+	
+	}
+	
+	// Insert at Specific position
+	
+	public void insertAtPosition(int val , int pos)
+	{
+		Node newNode = new Node(val);
+		
+		if(pos==1)
+		{
+			
+			
+			newNode.next=head;
+			head=newNode;
+		}
+		else
+		{
+			Node temp =head;
+			
+			int i=1;
+			
+			while(i<pos-1 && temp != null)
+			{
+				temp=temp.next;
+				i++;
+				
+			}
+			if(temp!=null)
+			{
+			newNode.next= temp.next;
+			temp.next=newNode;
+			}
+			else
+			{
+				System.out.println("Invalid Position");
+			}
+		}
+	}
+	
+	// Delete at Specific position 
+	
+	public void deleteAtPos(int pos)
+	{
+		if(pos==1)
+		{
+			Node temp = head;
+			
+			head = temp.next;
+			temp.next= null;
+			
+		}
+		
+		else
+		{
+			int i=1;
+			Node prev=null;
+			Node temp=head;
+			while(i<pos-1 && temp!=null )
+			{
+				prev=temp;
+				temp=temp.next;
+			}
+			
+			if(temp!=null)
+			{
+			prev.next=temp.next;
+			temp.next=null;
+			}
+			else
+			{
+				System.out.println("Invalid Position");
+			}
+		}
+	}
+	
+	
+	
+	
+	
+	
+}

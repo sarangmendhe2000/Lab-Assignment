@@ -1,0 +1,159 @@
+package com.demo.service;
+
+public class DoublyCircularLL {
+	
+	Node head;
+	Node tail;
+	class Node
+	{
+		int data;
+		Node prev;
+		Node next;
+		
+		public Node(int data)
+		{
+			this.data = data;
+			prev= null;
+			next = null;
+		}
+	}
+	
+	public DoublyCircularLL()
+	{
+		head = null;
+	}
+	
+	// Add new node in DCLL
+	
+	public void addDCLL(int val)
+	{
+		Node newNode = new Node(val);
+		
+		if(head == null)
+		{
+			head = tail = newNode;
+			head.next= newNode;
+			head.prev= newNode;
+		}
+		else
+		{
+			
+			tail.next = newNode;
+			newNode.prev=tail;
+			newNode.next=head;
+			head.prev=newNode;
+			
+			tail=newNode;
+		}
+	}
+	
+	//Display DCLL
+	
+	
+	public void display()
+	{
+		if(head==null)
+		{
+			System.out.println("List is Empty");
+		}
+		else
+		{
+			Node temp= head;
+			
+			while(temp != tail)
+			{
+				System.out.print(temp.data+" <--> ");
+				temp=temp.next;
+			}
+			System.out.println(temp.data+" <--> head");
+		}
+	}
+	
+	
+	//insert at specific Position
+	
+	public void insertAtPosition(int pos , int val)
+	{
+		
+		if(pos == 1)
+		{
+			Node newnode = new Node(val);
+			
+			newnode.next=head;
+			newnode.prev = tail;
+			tail.next=head;
+			head.prev=newnode;
+			head=newnode;
+			
+		}
+		
+		else
+		{
+			Node newnode = new Node(val);
+			int i=1;
+			Node temp=head;
+			
+			while(i<pos-1 )
+			{
+				temp=temp.next;
+				i++;
+			}
+			
+		
+			
+			newnode.prev=temp;
+			newnode.next= temp.next;
+			temp.next.prev=newnode;
+			temp.next=newnode;
+			
+			
+			
+		}
+	}
+	
+	//Add after the value
+	
+	public void addByValue(int val , int num)
+	{
+		Node newnode = new Node(num);
+		if(head.data==num)
+		{
+			newnode.next=head;
+			newnode.prev=tail;
+			head.prev=newnode;
+			tail.next=newnode;
+			head=newnode;
+		}
+		
+		else
+		{
+			
+			
+			Node temp = head;
+			
+			while(temp.data != num)
+			{
+				temp=temp.next;
+			}
+			
+			if(temp.data == tail.data )
+			{
+				newnode.prev=tail;
+				newnode.next=head;
+				tail.next=newnode;
+				head.prev=newnode;
+				tail=newnode;
+			}
+			else
+			{
+				newnode.prev=temp;
+				newnode.next=temp.next;
+				temp.next.prev=newnode;
+				temp.next=newnode;
+			}
+			
+			
+		}
+	}
+	
+}

@@ -1,0 +1,21 @@
+package com.demo.service;
+
+import org.w3c.dom.Node;
+
+public class SinglyLinkList {
+
+   int data;
+   Node next;
+   
+	public  SinglyLinkList(int x) {
+		
+		data =x;
+		next=null;
+	}
+	
+	
+	
+	
+	
+	
+}

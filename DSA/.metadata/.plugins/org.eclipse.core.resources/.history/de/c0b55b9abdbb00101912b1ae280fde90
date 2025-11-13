@@ -1,0 +1,37 @@
+package com.demo.testStack;
+
+import java.util.Scanner;
+
+import com.demo.myStack.StackArray;
+
+public class testStackArray {
+
+	public static void main(String[] args) {
+		
+		
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter size of the array");
+		int n = sc.nextInt();
+		
+		StackArray stk = new StackArray(n);
+		
+		stk.push(5);
+		stk.push(10);
+		stk.push(15);
+		stk.push(20);
+		stk.push(25);
+//		stk.push(30);
+		
+		stk.pop();
+		stk.pop();
+		stk.pop();
+		stk.pop();
+		stk.pop();
+		stk.pop();
+		
+		
+		stk.display();
+	}
+
+}

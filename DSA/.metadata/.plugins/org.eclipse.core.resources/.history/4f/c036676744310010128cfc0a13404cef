@@ -1,9 +1,0 @@
-package com.demo.test;
-
-public class TestMyStackArray {
-	public static void main (String[] args) {
-		MyStack ob = new TestMyStackArray();
-		
-	}
-}
-
