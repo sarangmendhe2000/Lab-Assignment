@@ -1,0 +1,323 @@
+
+Nov 21, 2025 18:55:51.227 NEW SESSION
+Nov 21, 2025 18:55:51.228 Created TensorFlow Lite XNNPACK delegate for CPU.
+Nov 21, 2025 18:55:52.715 [6444:7704:1121/185552.714:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: QUOTA_EXCEEDED
+Nov 21, 2025 19:00:53.268 [6444:7704:1121/190053.267:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 21, 2025 19:05:55.737 [6444:7704:1121/190555.736:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 21, 2025 19:10:57.714 [6444:7704:1121/191057.713:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 21, 2025 19:16:02.132 [6444:7704:1121/191602.131:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 21, 2025 19:21:03.655 [6444:7704:1121/192103.654:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 21, 2025 19:26:05.442 [6444:7704:1121/192605.441:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 21, 2025 19:31:07.737 [6444:7704:1121/193107.736:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 21, 2025 19:36:09.268 [6444:7704:1121/193609.267:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 21, 2025 19:41:10.721 [6444:7704:1121/194110.720:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 21, 2025 19:46:13.961 [6444:7704:1121/194613.960:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 21, 2025 19:51:15.474 [6444:7704:1121/195115.473:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 21, 2025 19:56:17.822 [6444:7704:1121/195617.821:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 21, 2025 20:01:20.25 [6444:7704:1121/200120.025:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 21, 2025 20:06:21.275 [6444:7704:1121/200621.274:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 21, 2025 20:11:23.111 [6444:7704:1121/201123.110:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 21, 2025 20:16:24.616 [6444:7704:1121/201624.615:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 21, 2025 20:21:26.24 [6444:7704:1121/202126.023:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 21, 2025 20:26:27.294 [6444:7704:1121/202627.294:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 21, 2025 20:31:28.637 [6444:7704:1121/203128.636:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 21, 2025 20:36:30.281 [6444:7704:1121/203630.280:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 21, 2025 20:41:31.767 [6444:7704:1121/204131.766:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 21, 2025 20:46:33.348 [6444:7704:1121/204633.347:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 21, 2025 20:51:35.541 [6444:7704:1121/205135.540:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 21, 2025 20:56:36.839 [6444:7704:1121/205636.838:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 21, 2025 21:01:38.330 [6444:7704:1121/210138.330:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 21, 2025 21:06:40.193 [6444:7704:1121/210640.193:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 21, 2025 21:11:41.823 [6444:7704:1121/211141.823:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 21, 2025 21:16:43.858 [6444:7704:1121/211643.857:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 21, 2025 21:21:45.860 [6444:7704:1121/212145.859:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+
+Nov 22, 2025 14:21:43.565 NEW SESSION
+Nov 22, 2025 14:21:43.566 Created TensorFlow Lite XNNPACK delegate for CPU.
+Nov 22, 2025 14:21:44.792 [2248:1948:1122/142144.791:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 22, 2025 14:22:13.575 [2248:1948:1122/142213.574:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 22, 2025 14:23:05.116 [2248:1948:1122/142305.115:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 22, 2025 14:24:39.596 [2248:1948:1122/142439.596:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 22, 2025 14:26:44.854 [2248:1948:1122/142644.853:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 22, 2025 14:28:00.682 [2248:1948:1122/142800.681:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 22, 2025 14:31:46.575 [2248:1948:1122/143146.575:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 22, 2025 14:35:12.680 [2248:1948:1122/143512.679:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 22, 2025 14:36:48.679 [2248:1948:1122/143648.679:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 22, 2025 14:41:51.424 [2248:1948:1122/144151.423:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 22, 2025 14:46:52.932 [2248:1948:1122/144652.931:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 22, 2025 14:51:54.483 [2248:1948:1122/145154.482:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 22, 2025 14:56:56.179 [2248:1948:1122/145656.178:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 22, 2025 15:01:57.788 [2248:1948:1122/150157.787:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 22, 2025 15:06:59.239 [2248:1948:1122/150659.238:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 22, 2025 15:12:00.983 [2248:1948:1122/151200.982:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 22, 2025 15:17:02.681 [2248:1948:1122/151702.680:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 22, 2025 15:22:04.294 [2248:1948:1122/152204.293:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 22, 2025 15:27:05.865 [2248:1948:1122/152705.864:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 22, 2025 15:32:07.272 [2248:1948:1122/153207.271:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 22, 2025 15:37:08.784 [2248:1948:1122/153708.783:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 22, 2025 15:42:10.566 [2248:1948:1122/154210.565:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 22, 2025 15:47:12.168 [2248:1948:1122/154712.167:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 22, 2025 15:52:13.924 [2248:1948:1122/155213.923:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 22, 2025 15:57:15.417 [2248:1948:1122/155715.416:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 22, 2025 16:02:16.993 [2248:1948:1122/160216.992:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 22, 2025 16:07:19.55 [2248:1948:1122/160719.055:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 22, 2025 16:12:20.763 [2248:1948:1122/161220.763:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 22, 2025 16:17:22.616 [2248:1948:1122/161722.616:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 22, 2025 16:22:24.152 [2248:1948:1122/162224.151:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 22, 2025 16:27:25.655 [2248:1948:1122/162725.654:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 22, 2025 16:32:27.144 [2248:1948:1122/163227.143:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 22, 2025 16:37:28.710 [2248:1948:1122/163728.709:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 22, 2025 16:42:30.290 [2248:1948:1122/164230.290:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 22, 2025 16:47:31.740 [2248:1948:1122/164731.739:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 22, 2025 16:52:33.482 [2248:1948:1122/165233.480:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 22, 2025 16:57:34.886 [2248:1948:1122/165734.885:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 22, 2025 17:02:36.370 [2248:1948:1122/170236.369:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 22, 2025 17:07:38.15 [2248:1948:1122/170738.014:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 22, 2025 17:12:39.633 [2248:1948:1122/171239.633:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 22, 2025 17:17:41.399 [2248:1948:1122/171741.398:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 22, 2025 17:22:42.972 [2248:1948:1122/172242.971:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 22, 2025 17:27:44.814 [2248:1948:1122/172744.813:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 22, 2025 17:32:46.536 [2248:1948:1122/173246.535:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 22, 2025 17:37:48.209 [2248:1948:1122/173748.208:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 22, 2025 17:42:49.762 [2248:1948:1122/174249.761:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 22, 2025 17:47:51.392 [2248:1948:1122/174751.391:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 22, 2025 17:52:52.817 [2248:1948:1122/175252.816:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 22, 2025 17:57:54.549 [2248:1948:1122/175754.548:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 22, 2025 18:02:55.971 [2248:1948:1122/180255.970:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 22, 2025 18:07:57.597 [2248:1948:1122/180757.597:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 22, 2025 18:12:59.148 [2248:1948:1122/181259.147:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 22, 2025 18:18:00.666 [2248:1948:1122/181800.665:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+
+Nov 24, 2025 16:49:39.604 NEW SESSION
+Nov 24, 2025 16:49:39.605 Created TensorFlow Lite XNNPACK delegate for CPU.
+Nov 24, 2025 16:49:40.814 [1168:3104:1124/164940.813:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 24, 2025 16:49:40.849 [1168:3104:1124/164940.849:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 24, 2025 16:50:05.85 [1168:3104:1124/165005.084:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 24, 2025 16:50:10.170 [1168:3104:1124/165010.169:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 24, 2025 16:50:56.150 [1168:3104:1124/165056.149:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 24, 2025 16:51:03.621 [1168:3104:1124/165103.620:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 24, 2025 16:52:22.131 [1168:3104:1124/165222.130:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 24, 2025 16:52:31.17 [1168:3104:1124/165231.017:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 24, 2025 16:54:40.599 [1168:3104:1124/165440.599:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 24, 2025 16:54:41.400 [1168:3104:1124/165441.400:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 24, 2025 16:55:56.35 [1168:3104:1124/165556.034:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 24, 2025 16:56:13.781 [1168:3104:1124/165613.780:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 24, 2025 16:59:42.156 [1168:3104:1124/165942.156:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 24, 2025 16:59:42.951 [1168:3104:1124/165942.951:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 24, 2025 17:01:54.105 [1168:3104:1124/170154.104:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 24, 2025 17:02:19.354 [1168:3104:1124/170219.354:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 24, 2025 17:04:43.867 [1168:3104:1124/170443.866:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 24, 2025 17:04:44.487 [1168:3104:1124/170444.486:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 24, 2025 17:09:45.226 [1168:3104:1124/170945.225:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 24, 2025 17:09:45.979 [1168:3104:1124/170945.978:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 24, 2025 17:14:46.983 [1168:3104:1124/171446.982:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 24, 2025 17:14:47.660 [1168:3104:1124/171447.660:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 24, 2025 17:19:48.641 [1168:3104:1124/171948.640:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 24, 2025 17:19:49.253 [1168:3104:1124/171949.253:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 24, 2025 17:24:49.948 [1168:3104:1124/172449.947:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 24, 2025 17:24:50.789 [1168:3104:1124/172450.788:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 24, 2025 17:29:51.356 [1168:3104:1124/172951.356:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 24, 2025 17:29:52.268 [1168:3104:1124/172952.266:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 24, 2025 17:34:52.852 [1168:3104:1124/173452.852:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 24, 2025 17:34:53.615 [1168:3104:1124/173453.614:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 24, 2025 17:39:54.285 [1168:3104:1124/173954.284:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 24, 2025 17:39:55.62 [1168:3104:1124/173955.061:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+
+Nov 25, 2025 11:10:10.606 NEW SESSION
+Nov 25, 2025 11:10:10.607 Created TensorFlow Lite XNNPACK delegate for CPU.
+Nov 25, 2025 11:10:11.785 [5756:2400:1125/111011.785:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 25, 2025 11:10:41.748 [5756:2400:1125/111041.747:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 25, 2025 11:11:39.515 [5756:2400:1125/111139.514:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 25, 2025 11:13:08.206 [5756:2400:1125/111308.205:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 25, 2025 11:15:11.625 [5756:2400:1125/111511.625:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 25, 2025 11:16:53.320 [5756:2400:1125/111653.319:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 25, 2025 11:20:13.75 [5756:2400:1125/112013.074:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 25, 2025 11:23:36.345 [5756:2400:1125/112336.345:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 25, 2025 11:25:14.653 [5756:2400:1125/112514.653:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 25, 2025 11:30:16.91 [5756:2400:1125/113016.090:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 25, 2025 11:35:17.413 [5756:2400:1125/113517.412:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 25, 2025 11:40:19.121 [5756:2400:1125/114019.120:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 25, 2025 11:45:20.733 [5756:2400:1125/114520.733:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 25, 2025 11:50:22.147 [5756:2400:1125/115022.146:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 25, 2025 11:55:23.838 [5756:2400:1125/115523.837:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 25, 2025 12:00:25.458 [5756:2400:1125/120025.457:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 25, 2025 12:05:27.60 [5756:2400:1125/120527.059:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 25, 2025 12:10:28.471 [5756:2400:1125/121028.471:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+
+Nov 25, 2025 15:29:40.313 NEW SESSION
+Nov 25, 2025 15:29:40.313 Created TensorFlow Lite XNNPACK delegate for CPU.
+Nov 25, 2025 15:29:41.855 [7024:4012:1125/152941.855:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 25, 2025 15:30:07.06 [7024:4012:1125/153007.006:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 25, 2025 15:31:06.518 [7024:4012:1125/153106.517:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 25, 2025 15:32:56.545 [7024:4012:1125/153256.544:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 25, 2025 15:34:41.364 [7024:4012:1125/153441.363:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 25, 2025 15:35:40.133 [7024:4012:1125/153540.132:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 25, 2025 15:39:42.868 [7024:4012:1125/153942.867:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 25, 2025 15:43:04.88 [7024:4012:1125/154304.088:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 25, 2025 15:44:44.314 [7024:4012:1125/154444.312:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 25, 2025 15:49:45.985 [7024:4012:1125/154945.985:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 25, 2025 15:54:47.500 [7024:4012:1125/155447.499:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 25, 2025 15:59:48.942 [7024:4012:1125/155948.942:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 25, 2025 16:04:50.496 [7024:4012:1125/160450.495:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 25, 2025 16:09:51.956 [7024:4012:1125/160951.956:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 25, 2025 16:14:53.393 [7024:4012:1125/161453.393:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 25, 2025 16:19:54.984 [7024:4012:1125/161954.984:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 25, 2025 16:24:56.612 [7024:4012:1125/162456.612:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+
+Nov 26, 2025 09:21:53.208 NEW SESSION
+Nov 26, 2025 09:21:53.208 Created TensorFlow Lite XNNPACK delegate for CPU.
+Nov 26, 2025 09:21:54.760 [3704:6688:1126/092154.759:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 26, 2025 09:22:16.62 [3704:6688:1126/092216.061:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 26, 2025 09:23:02.420 [3704:6688:1126/092302.420:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 26, 2025 09:24:27.215 [3704:6688:1126/092427.215:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: QUOTA_EXCEEDED
+Nov 26, 2025 09:26:54.215 [3704:6688:1126/092654.214:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 26, 2025 09:31:55.812 [3704:6688:1126/093155.811:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 26, 2025 09:36:57.320 [3704:6688:1126/093657.319:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 26, 2025 09:41:58.798 [3704:6688:1126/094158.797:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 26, 2025 09:47:00.449 [3704:6688:1126/094700.448:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 26, 2025 09:52:02.183 [3704:6688:1126/095202.182:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 26, 2025 09:57:03.801 [3704:6688:1126/095703.800:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 26, 2025 10:02:05.381 [3704:6688:1126/100205.380:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 26, 2025 10:07:06.984 [3704:6688:1126/100706.983:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 26, 2025 10:12:08.451 [3704:6688:1126/101208.450:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 26, 2025 10:17:09.980 [3704:6688:1126/101709.979:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 26, 2025 10:22:13.37 [3704:6688:1126/102213.036:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 26, 2025 10:27:14.476 [3704:6688:1126/102714.476:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 26, 2025 10:32:15.911 [3704:6688:1126/103215.910:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 26, 2025 10:37:17.869 [3704:6688:1126/103717.868:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 26, 2025 10:42:19.374 [3704:6688:1126/104219.373:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 26, 2025 10:47:21.59 [3704:6688:1126/104721.059:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 26, 2025 10:52:22.703 [3704:6688:1126/105222.702:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 26, 2025 10:57:24.365 [3704:6688:1126/105724.364:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 26, 2025 11:02:25.945 [3704:6688:1126/110225.945:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 26, 2025 11:07:27.533 [3704:6688:1126/110727.532:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 26, 2025 11:12:29.229 [3704:6688:1126/111229.228:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 26, 2025 11:17:30.839 [3704:6688:1126/111730.839:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 26, 2025 11:22:32.399 [3704:6688:1126/112232.399:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 26, 2025 11:27:34.143 [3704:6688:1126/112734.143:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 26, 2025 11:32:35.775 [3704:6688:1126/113235.774:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+
+Nov 26, 2025 11:39:50.370 NEW SESSION
+Nov 26, 2025 11:39:50.370 [3644:4636:1126/113950.368:ERROR:base\metrics\persistent_memory_allocator.cc:886] Corruption detected in shared-memory segment.
+Nov 26, 2025 11:39:51.119 Created TensorFlow Lite XNNPACK delegate for CPU.
+Nov 26, 2025 11:39:52.378 [3644:4884:1126/113952.377:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 26, 2025 11:40:17.58 [3644:4884:1126/114017.058:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: QUOTA_EXCEEDED
+Nov 26, 2025 11:44:48.434 Created TensorFlow Lite XNNPACK delegate for CPU.
+Nov 26, 2025 11:44:49.893 [8940:4604:1126/114449.893:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 26, 2025 11:45:15.280 [8940:4604:1126/114515.279:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 26, 2025 11:46:08.566 [8940:4604:1126/114608.565:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 26, 2025 11:48:02.600 [8940:4604:1126/114802.600:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 26, 2025 11:49:49.938 [8940:4604:1126/114949.937:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 26, 2025 11:51:56.309 [8940:4604:1126/115156.308:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 26, 2025 11:54:51.569 [8940:4604:1126/115451.568:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 26, 2025 11:57:24.910 [8940:8988:1126/115724.909:ERROR:components\device_event_log\device_event_log_impl.cc:198] [11:57:24.910] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Nov 26, 2025 11:57:24.916 [8940:8988:1126/115724.916:ERROR:components\device_event_log\device_event_log_impl.cc:198] [11:57:24.917] USB: usb_service_win.cc:308 SetupDiEnumDeviceInterfaces: No more data is available. (0x103)
+Nov 26, 2025 11:57:28.855 [8940:8988:1126/115728.855:ERROR:components\device_event_log\device_event_log_impl.cc:198] [11:57:28.856] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Nov 26, 2025 11:57:28.861 [8940:8988:1126/115728.861:ERROR:components\device_event_log\device_event_log_impl.cc:198] [11:57:28.861] USB: usb_service_win.cc:308 SetupDiEnumDeviceInterfaces: No more data is available. (0x103)
+Nov 26, 2025 11:57:59.786 [8940:4604:1126/115759.786:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 26, 2025 11:59:53.163 [8940:4604:1126/115953.162:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 26, 2025 12:04:54.757 [8940:4604:1126/120454.755:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 26, 2025 12:09:56.485 [8940:4604:1126/120956.484:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 26, 2025 12:14:58.196 [8940:4604:1126/121458.195:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 26, 2025 12:20:00.28 [8940:4604:1126/122000.027:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 26, 2025 12:21:38.445 [8940:8988:1126/122138.445:ERROR:components\device_event_log\device_event_log_impl.cc:198] [12:21:38.445] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Nov 26, 2025 12:21:38.462 [8940:8988:1126/122138.462:ERROR:components\device_event_log\device_event_log_impl.cc:198] [12:21:38.462] USB: usb_service_win.cc:308 SetupDiEnumDeviceInterfaces: No more data is available. (0x103)
+Nov 26, 2025 12:25:01.965 [8940:4604:1126/122501.965:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 26, 2025 12:30:03.496 [8940:4604:1126/123003.495:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 26, 2025 12:35:05.94 [8940:4604:1126/123505.093:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 26, 2025 12:40:06.590 [8940:4604:1126/124006.590:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 26, 2025 12:45:08.184 [8940:4604:1126/124508.183:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 26, 2025 12:50:09.848 [8940:4604:1126/125009.847:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 26, 2025 12:55:11.287 [8940:4604:1126/125511.286:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 26, 2025 13:00:13.79 [8940:4604:1126/130013.077:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 26, 2025 13:05:16.362 [8940:4604:1126/130516.361:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 26, 2025 13:10:17.926 [8940:4604:1126/131017.925:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 26, 2025 13:15:19.652 [8940:4604:1126/131519.651:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+
+Nov 27, 2025 08:20:16.20 NEW SESSION
+Nov 27, 2025 08:20:16.20 Created TensorFlow Lite XNNPACK delegate for CPU.
+Nov 27, 2025 08:20:18.67 [4228:5084:1127/082018.067:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 27, 2025 08:20:44.609 [4228:5084:1127/082044.608:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 27, 2025 08:21:43.501 [4228:5084:1127/082143.500:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 27, 2025 08:23:05.948 [4228:5084:1127/082305.948:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 27, 2025 08:25:18.393 [4228:5084:1127/082518.393:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 27, 2025 08:26:16.185 [4228:5084:1127/082616.184:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 27, 2025 08:30:20.803 [4228:5084:1127/083020.803:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 27, 2025 08:33:19.515 [4228:5084:1127/083319.514:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 27, 2025 08:35:23.405 [4228:5084:1127/083523.405:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 27, 2025 08:40:25.186 [4228:5084:1127/084025.185:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 27, 2025 08:45:28.165 [4228:5084:1127/084528.164:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 27, 2025 08:50:29.999 [4228:5084:1127/085029.999:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 27, 2025 08:55:32.11 [4228:5084:1127/085532.011:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 27, 2025 09:00:33.847 [4228:5084:1127/090033.847:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 27, 2025 09:05:35.604 [4228:5084:1127/090535.604:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 27, 2025 09:10:37.508 [4228:5084:1127/091037.507:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 27, 2025 09:23:33.15 Created TensorFlow Lite XNNPACK delegate for CPU.
+Nov 27, 2025 09:23:34.181 [1936:4312:1127/092334.181:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 27, 2025 09:23:57.288 [1936:4312:1127/092357.287:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 27, 2025 09:24:49.324 [1936:4312:1127/092449.323:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 27, 2025 09:26:19.31 [1936:4312:1127/092619.030:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 27, 2025 09:28:34.669 [1936:4312:1127/092834.668:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 27, 2025 09:29:16.939 [1936:4312:1127/092916.939:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 27, 2025 09:33:36.564 [1936:4312:1127/093336.563:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 27, 2025 09:35:46.357 [1936:4312:1127/093546.356:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 27, 2025 09:38:38.434 [1936:4312:1127/093838.433:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 27, 2025 09:43:40.267 [1936:4312:1127/094340.266:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 27, 2025 09:48:42.267 [1936:4312:1127/094842.266:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 27, 2025 09:53:44.310 [1936:4312:1127/095344.309:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 27, 2025 09:58:46.511 [1936:4312:1127/095846.510:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 27, 2025 10:03:48.397 [1936:4312:1127/100348.396:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 27, 2025 10:08:50.312 [1936:4312:1127/100850.312:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 27, 2025 10:13:52.31 [1936:4312:1127/101352.031:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+
+Nov 27, 2025 10:48:52.271 NEW SESSION
+Nov 27, 2025 10:48:52.271 Created TensorFlow Lite XNNPACK delegate for CPU.
+Nov 27, 2025 10:48:53.470 [8356:7968:1127/104853.469:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 27, 2025 10:49:18.201 [8356:7968:1127/104918.200:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 27, 2025 10:50:09.496 [8356:7968:1127/105009.495:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 27, 2025 10:51:39.00 [8356:7968:1127/105138.999:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 27, 2025 10:53:54.77 [8356:7968:1127/105354.076:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 27, 2025 10:54:54.193 [8356:7968:1127/105454.192:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 27, 2025 10:58:55.882 [8356:7968:1127/105855.882:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 27, 2025 11:00:34.273 [8356:7968:1127/110034.272:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 27, 2025 11:03:57.698 [8356:7968:1127/110357.697:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 27, 2025 11:08:59.619 [8356:7968:1127/110859.618:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 27, 2025 11:14:01.247 [8356:7968:1127/111401.247:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 27, 2025 11:19:03.102 [8356:7968:1127/111903.101:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 27, 2025 11:24:05.57 [8356:7968:1127/112405.056:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 27, 2025 11:29:06.902 [8356:7968:1127/112906.901:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 27, 2025 11:33:58.93 Created TensorFlow Lite XNNPACK delegate for CPU.
+Nov 27, 2025 11:33:59.651 [1920:5620:1127/113359.650:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 27, 2025 11:34:25.873 [1920:5620:1127/113425.872:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 27, 2025 11:35:08.797 [1920:5620:1127/113508.796:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 27, 2025 11:36:50.545 [1920:5620:1127/113650.544:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 27, 2025 11:38:59.807 [1920:5620:1127/113859.806:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 27, 2025 11:39:55.760 [1920:5620:1127/113955.759:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 27, 2025 11:44:01.401 [1920:5620:1127/114401.400:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 27, 2025 11:47:37.361 [1920:5620:1127/114737.360:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 27, 2025 11:49:03.214 [1920:5620:1127/114903.213:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 27, 2025 11:54:05.36 [1920:5620:1127/115405.035:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 27, 2025 11:59:06.877 [1920:5620:1127/115906.877:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 27, 2025 12:04:08.619 [1920:5620:1127/120408.619:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 27, 2025 12:09:10.422 [1920:5620:1127/120910.421:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 27, 2025 12:14:12.191 [1920:5620:1127/121412.190:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+
+Nov 28, 2025 14:48:11.302 NEW SESSION
+Nov 28, 2025 14:48:11.302 Created TensorFlow Lite XNNPACK delegate for CPU.
+Nov 28, 2025 14:48:12.447 [5308:8704:1128/144812.446:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 28, 2025 14:48:37.102 [5308:8704:1128/144837.102:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 28, 2025 14:49:23.699 [5308:8704:1128/144923.699:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 28, 2025 14:51:07.423 [5308:8704:1128/145107.423:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 28, 2025 14:53:12.677 [5308:8704:1128/145312.677:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 28, 2025 14:54:58.478 [5308:8704:1128/145458.477:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 28, 2025 14:58:14.226 [5308:8704:1128/145814.224:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 28, 2025 15:01:25.297 [5308:8704:1128/150125.297:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 28, 2025 15:03:15.766 [5308:8704:1128/150315.765:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 28, 2025 15:08:17.428 [5308:8704:1128/150817.427:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 28, 2025 15:13:18.922 [5308:8704:1128/151318.922:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 28, 2025 15:18:20.551 [5308:8704:1128/151820.550:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 28, 2025 15:23:22.264 [5308:8704:1128/152322.263:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 28, 2025 15:28:23.767 [5308:8704:1128/152823.766:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 28, 2025 15:33:25.327 [5308:8704:1128/153325.326:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 28, 2025 15:38:26.870 [5308:8704:1128/153826.870:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 28, 2025 15:43:28.691 [5308:8704:1128/154328.690:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2

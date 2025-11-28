@@ -1,0 +1,35 @@
+package com.demo.servlet;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.demo.beans.Product;
+import com.demo.service.ShowProductImpl;
+import com.demo.service.ShowProductService;
+
+public class EditServlet extends HttpServlet {
+	
+	public void doPost(HttpServletRequest req , HttpServletResponse res) throws IOException
+	{
+		res.setContentType("text/html");
+		
+			PrintWriter out = res.getWriter();
+	
+		
+		int pid = Integer.parseInt(req.getParameter("pid"));
+		ShowProductService pservice = new ShowProductImpl();
+		Product p = pservice.getPid(pid);
+		
+		out.println("<form action='updateProduct' method='post'>");
+		out.println("Product Id <input type = 'text' name= 'pid' id ='pid' value=' " + p.getPid()+ " ' readonly> <br/> ");
+		out.println("Product Description <input type = 'text' name= 'pdesc' id ='pdesc' value=' " + p.getDesc()+ " ' > <br/> ");
+		out.println("Product Price <input type = 'text' name= 'price' id ='price' value=' " + p.getPrice()+ " ' readonly> <br/> ");
+		out.println("</form>");
+		
+	}
+
+}

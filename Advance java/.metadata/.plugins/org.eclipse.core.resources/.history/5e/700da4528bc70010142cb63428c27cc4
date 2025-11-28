@@ -1,0 +1,24 @@
+package com.demo.service;
+
+import com.demo.beans.Product;
+
+public class ShowProductServiceImpl implements ShowProductService {
+
+	private ProductDao pdao;
+	
+	
+	
+	public ShowProductServiceImpl() {
+		super();
+		pdao= new ProductDaoImpl();
+	}
+
+
+
+	@Override
+	public Product showProduct() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

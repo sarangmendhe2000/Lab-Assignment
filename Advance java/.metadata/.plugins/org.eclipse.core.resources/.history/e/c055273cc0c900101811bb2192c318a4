@@ -1,0 +1,32 @@
+package com.demo.servlet;
+
+import java.io.IOException;
+
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.demo.beans.Product;
+import com.demo.service.ShowProductImpl;
+import com.demo.service.ShowProductService;
+
+public class UpdateServlet extends HttpServlet {
+ 
+	public void doPost(HttpServletRequest req , HttpServletResponse res) throws IOException
+	{
+		// get all the values 
+		
+		int id = Integer.parseInt(req.getParameter("pid"));
+		String desc = req.getParameter("pdesc");
+		Double price = Double.parseDouble(req.getParameter("price"));
+		
+		Product p = new Product(id , desc , price);
+		
+		ShowProductService pservice = new ShowProductImpl();
+		
+		boolean status = pservice.update(p);
+		
+		if(status)
+		
+	}
+}

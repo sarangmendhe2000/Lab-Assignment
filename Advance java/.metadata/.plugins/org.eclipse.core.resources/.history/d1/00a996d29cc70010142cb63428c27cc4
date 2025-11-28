@@ -1,0 +1,33 @@
+package com.demo.servlet;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.demo.beans.Product;
+import com.demo.service.ShowProductService;
+import com.demo.service.ShowProductServiceImpl;
+
+public class AddProduct extends HttpServlet{
+      public void doPost(HttpServletRequest req , HttpServletResponse res)
+      {
+    	  res.setContentType("text/html");
+    	  try {
+			PrintWriter out = res.getWriter();
+			int id = Integer.parseInt(req.getParameter("pid"));
+			String desc = req.getParameter("pname");
+			double price = Double.parseDouble(req.getParameter("price"));
+			
+			Product p = new Product(id, desc  price);
+			ShowProductService sservice = new ShowProductServiceImpl();
+			
+			
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+      }
+}

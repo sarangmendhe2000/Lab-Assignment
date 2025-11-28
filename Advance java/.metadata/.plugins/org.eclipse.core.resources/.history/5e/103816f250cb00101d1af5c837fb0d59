@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+  
+  <h1>Login Page </h1> <br>    
+  <form action="validateuser" method="post">
+    User name: <input type="text" name="uname" id="unm"><br/><br>
+    Password: <input type="text" name="pass" id="pass"><br/><br>
+    <button type="submit" name="login" id="login">Login</button><br><br>
+  </form>
+  <a href="register.html">New Registration</a><br/><br/>
+  <a href="forgotpassword.html">Forgot Password</a><br/>
+  
+</body>
+</html>

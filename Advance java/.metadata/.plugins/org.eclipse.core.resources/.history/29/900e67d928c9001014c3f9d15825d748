@@ -1,0 +1,15 @@
+package com.demo.service;
+
+public class addImpl  implements add{
+	
+	private addDao adao;
+
+	public addImpl() {
+		super();
+		
+		ada
+	}
+	
+	
+
+}

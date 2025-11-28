@@ -1,0 +1,28 @@
+package com.demo.beans;
+
+public class MyUser {
+	
+	private int id;
+	private String name ;
+	private String email;
+	private String password;
+	
+	
+	
+	public MyUser() {
+		super();
+	}
+
+
+
+	public MyUser(int id, String name, String email, String password) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.email = email;
+		this.password = password;
+	}
+	
+	
+	
+}

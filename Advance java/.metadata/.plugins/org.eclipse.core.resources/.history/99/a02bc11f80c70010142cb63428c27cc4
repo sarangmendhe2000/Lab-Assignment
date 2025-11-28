@@ -1,0 +1,9 @@
+package com.demo.service;
+
+import com.demo.beans.Registration;
+
+public interface LoginService {
+
+	Registration validateUser(String userName, String password);
+
+}

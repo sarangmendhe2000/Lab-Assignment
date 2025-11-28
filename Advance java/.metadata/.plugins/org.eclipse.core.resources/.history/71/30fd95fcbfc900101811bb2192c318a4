@@ -1,0 +1,116 @@
+package com.demo.dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+
+import com.demo.beans.Product;
+import com.mysql.cj.protocol.Resultset;
+
+public class ProductDaoImpl implements ProductDao {
+
+	static Connection conn = null;
+	static PreparedStatement seluser , addProd , editProd , updateProd;
+	
+	static {
+		
+		conn = DBUtil.getMyConnection();
+		try {
+			seluser = conn.prepareStatement("Select * from product");
+			addProd= conn.prepareStatement("Insert into Product values(?, ?, ?)");
+			editProd = conn.prepareStatement("Select * from product where prodid = ?");
+			updateProd= conn.prepareStatement("Update table product set prodid= ? , descrip=? , price=? where pid=?");
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+				
+	}
+
+	
+	@Override
+	public List<Product> display() {
+		
+		List<Product>plist = new ArrayList<>();
+		try {
+			ResultSet rs = seluser.executeQuery();
+			
+			while(rs.next())
+			{
+				plist.add(new Product(rs.getInt(1), rs.getString(2), rs.getDouble(3)));
+				
+			}
+			return plist;
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		return null;
+	}
+
+
+
+	@Override
+	public boolean addProduct(Product p) {
+		
+		try {
+			addProd.setInt(1 , p.getPid());
+			addProd.setString(2, p.getDesc());
+			addProd.setDouble(3, p.getPrice());
+			
+			int n = addProd.executeUpdate();
+			
+			return n>0;
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		return false;
+	}
+
+
+
+	@Override
+	public Product findById(int pid) {
+		
+		try {
+			editProd.setInt(1, pid);
+			
+			ResultSet rs = editProd.executeQuery();
+			
+			if(rs.next()) {
+				return new Product(rs.getInt(1) , rs.getString(2) , rs.getDouble(3));
+			}
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		return null;
+	}
+
+
+
+	@Override
+	public boolean updateById(Product p) {
+		
+		try {
+			updateProd.setInt(1, p.getPid());
+			updateProd.setString(2, p.getDesc());
+			updateProd.setDouble(3, p.getPrice());
+			
+			if()
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		return false;
+	}
+
+}

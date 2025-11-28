@@ -1,0 +1,51 @@
+package com.demo.service;
+
+import java.util.List;
+
+import com.demo.beans.Product;
+import com.demo.dao.ProductDao;
+import com.demo.dao.ProductDaoImpl;
+
+public class ShowProductImpl implements ShowProductService{
+
+	private ProductDao pdao;
+	
+	
+	
+	public ShowProductImpl() {
+		pdao = new ProductDaoImpl();
+	}
+
+	@Override
+	public List<Product> showProduct() {
+		
+		return pdao.display();
+	}
+
+	@Override
+	public boolean add(Product p) {
+		
+		return pdao.addProduct(p);
+	}
+
+	
+
+	@Override
+	public Product getPid(int pid) {
+		
+		return pdao.findById(pid);
+	}
+
+	@Override
+	public boolean update(Product p) {
+	
+		
+		return pdao.updateById(p);
+	}
+
+	@Override
+	public boolean delete(int id) {
+				return pdao.removeBy;
+	}
+
+}

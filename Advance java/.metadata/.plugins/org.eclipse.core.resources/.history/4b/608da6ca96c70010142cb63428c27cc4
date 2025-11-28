@@ -1,0 +1,49 @@
+package com.demo.servlet;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.List;
+
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.demo.beans.Product;
+import com.demo.service.ShowProductService;
+import com.demo.service.ShowProductServiceImpl;
+
+public class ShowProduct extends HttpServlet{
+	
+	public void doPost(HttpServletRequest req , HttpServletResponse res)
+	{
+		res.setContentType("text/html");
+		try {
+			PrintWriter out = res.getWriter();
+			ShowProductService sp = new ShowProductServiceImpl();
+			List<Product> prod = sp.showProduct();
+			
+			
+			out.print("<form>");
+			out.print("<table border=2px> <thead> <th> PRODID </th><th>  DESCRIP </th><th>  price </th></thead>");
+			
+			for(Product p: prod)
+			{
+				out.println("<tr><td>"+p.getPid()+"</td><td>" +p.getDesc()+ "</td><td>"+p.getPrice()+ "</td>");
+				out.println("<td><a href='deleteProduct?pid = " +p.getPid()+"'>delete</a>  <a  href='EditProduct?pid = " +p.getPid()+"'>Edit </a> </td>");
+					
+			}
+			
+			
+			out.print("</table>");
+			
+			out.print("</form>");
+			
+			
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
+
+}

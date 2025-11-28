@@ -1,0 +1,54 @@
+package com.demo.servlet;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.demo.beans.User;
+import com.demo.service.LoginService;
+import com.demo.service.LoginServiceImpl;
+
+public class RegistServlet extends HttpServlet{
+	public void  doPost(HttpServletRequest req,HttpServletResponse res) throws IOException, ServletException{
+		 
+		res.setContentType("text/html");
+		PrintWriter out = res.getWriter();
+		
+		
+		int id = 0;
+		String name = req.getParameter("uname");
+		String email = req.getParameter("email");
+		String password = req.getParameter("password");
+		
+		User myUser = new User(id , name , email , password);
+		
+		LoginService lservice = new LoginServiceImpl();
+		
+		boolean status = lservice.newRegister(myUser);
+		
+		if(status)
+		{
+			out.println("Register Successfully");
+			RequestDispatcher rd = req.getRequestDispatcher("index.html");
+			rd.forward(req, res);
+		}
+		
+		else
+		{
+			out.println("Failed to Register ! ");
+			
+		}
+		
+	 }
+	
+	public void doGet(HttpServletRequest req , HttpServletResponse res) throws IOException, ServletException
+	{
+		doPost(req,res);
+	}
+
+}

@@ -1,0 +1,43 @@
+package com.demo.servlet;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.demo.service.ShowProductImpl;
+import com.demo.service.ShowProductService;
+
+public class DeleteServlet extends HttpServlet {
+	
+	public void doPost(HttpServletRequest req , HttpServletResponse res) throws IOException, ServletException
+	{
+		res.setContentType("text/html");
+		PrintWriter out = res.getWriter();
+		
+		int id = Integer.parseInt(req.getParameter("pid"));
+		
+		ShowProductService pservice = new ShowProductImpl();
+		
+		boolean status = pservice.delete(id);
+		
+		if(status)
+		{
+			RequestDispatcher rd = req.getRequestDispatcher("ShowProduct");
+			rd.forward(req, res);
+		}
+		else
+		{
+			out.println("Failed to delete");
+		}
+	}
+	
+	public void doGet(HttpServletRequest req , HttpServletResponse res)
+	{
+		doPost(req,res);
+	}
+}

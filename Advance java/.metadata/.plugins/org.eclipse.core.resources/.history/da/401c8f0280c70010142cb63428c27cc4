@@ -1,0 +1,9 @@
+package com.demo.dao;
+
+import com.demo.beans.Registration;
+
+public interface LoginDao {
+
+	User checkUser(String userName, String password);
+
+}

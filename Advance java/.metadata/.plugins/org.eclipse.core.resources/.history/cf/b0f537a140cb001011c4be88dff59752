@@ -1,0 +1,107 @@
+package com.demo.dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import com.demo.beans.User;
+
+public class LoginDaoImpl implements LoginDao {
+	
+	static Connection conn = null;
+	static PreparedStatement seluser , forgetPass , updatePass , addUser;
+	
+	static {
+		
+		conn = DBUtil.getMyConnection();
+		try {
+			seluser = conn.prepareStatement("Select * from registration where uname =? and password=?");
+			forgetPass = conn.prepareStatement("select uname ,email from registration where uname= ? and email=? ");
+			updatePass = conn.prepareStatement("update registration set password= ? where uname=?");
+			addUser = conn.prepareStatement("Insert into registration values( ? , ? , ?)");
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+				
+	}
+
+	@Override
+	public User checkUser(String userName, String password) {
+		
+		try {
+			seluser.setString(1, userName);
+			seluser.setString(2, password);
+			
+			
+			ResultSet rs = seluser.executeQuery();
+			if(rs.next())
+			{
+				
+				User reg = new User(rs.getInt(1) rs.getString(2), rs.getString(3), rs.getString(4));
+				return reg;
+			}
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		
+		return null;
+	}
+
+	@Override
+	public boolean changePassword(String name, String em, String password) {
+		
+		try {
+			forgetPass.setString(1, name);
+			forgetPass.setString(2, em);
+
+		    
+			ResultSet rs = forgetPass.executeQuery();
+			
+			
+			if(rs.next())
+			{
+				if(rs.getString(1).equals(name) && rs.getString(2).equals(em))
+				{
+					updatePass.setString(1, password);
+					updatePass.setString(2, name);
+					
+					int n = updatePass.executeUpdate();
+					return n>0;
+				}
+				
+				return false;
+			}
+			
+		} catch (SQLException e) {
+			
+			e.printStackTrace();
+		}
+		
+		return false;
+	}
+
+	@Override
+	public boolean addNewUser(User myUser) {
+		
+		try {
+			addUser.setString(1, myUser.getName());
+			addUser.setString(2, myUser.getEmail());
+			addUser.setString(3, myUser.getPassword());
+			
+			int n = addUser.executeUpdate();
+			return n>0;
+			
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		return false;
+	}
+	
+	
+}

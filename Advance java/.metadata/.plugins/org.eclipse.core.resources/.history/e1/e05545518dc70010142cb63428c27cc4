@@ -1,0 +1,18 @@
+package com.demo.beans;
+
+public class Product {
+	
+	private int pid;
+	private String desc;
+	private double price;
+	
+	
+	public Product(int pid, String desc, double price) {
+		super();
+		this.pid = pid;
+		this.desc = desc;
+		this.price = price;
+	}
+	
+	
+}

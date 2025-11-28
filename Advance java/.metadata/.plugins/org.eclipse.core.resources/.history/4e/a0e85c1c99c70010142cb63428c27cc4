@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+ <form action="addProduct" method="post"><br>
+ ProdId:<input type="text" name="pid" id="pid">
+ Description:<input type="text" name="pname" id="pname">
+ Price:<input type = "text" name="price" id="price">
+ <button type="submit" name= "btn" value="btn">Add</button>
+ 
+ 
+ 
+ 
+ </form>
+</body>
+</html>

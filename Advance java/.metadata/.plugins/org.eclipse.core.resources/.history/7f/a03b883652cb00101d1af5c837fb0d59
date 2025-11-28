@@ -1,0 +1,9 @@
+package com.demo.service;
+
+import com.demo.servlet.MyUSer;
+
+public interface LoginService {
+
+	MyUser validateuser(String uname, String password);
+
+}

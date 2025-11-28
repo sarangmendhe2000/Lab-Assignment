@@ -1,0 +1,18 @@
+package com.demo.service;
+
+import com.demo.dao.addDao;
+import com.demo.dao.addDaoImpl;
+
+public class addImpl  implements add{
+	
+	private addDao adao;
+
+	public addImpl() {
+		super();
+		
+		adao = new addDaoImpl();
+	}
+	
+	
+
+}
