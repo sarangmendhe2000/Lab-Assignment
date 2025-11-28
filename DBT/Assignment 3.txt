@@ -1,0 +1,5 @@
+Q31 select ename , sal , comm from emp where comm is not null order by sal desc , comm desc;
+Q32 select ename from emp where ename like '__A%';
+Q33 select ename , job , sal from emp where (job = 'analyst' or job = 'clerk' ) and sal not in(3000 , 5000 , 1000);
+Q34 select ename , sal , comm , (sal*0.1) as 'New Salary' from emp where comm > (sal*0.1);
+Q35 
