@@ -1,0 +1,93 @@
+
+	package com.demo.beans;
+
+	import javax.persistence.Column;
+	//import javax.persistence.Embedded;
+	import javax.persistence.Entity;
+	import javax.persistence.FetchType;
+	import javax.persistence.GeneratedValue;
+	import javax.persistence.Id;
+	import javax.persistence.OneToOne;
+import javax.persistence.Table;
+
+
+	@Entity
+
+	@Table ()
+	public class Course {
+		
+		
+		@Id
+		@GeneratedValue
+		private int id;
+		@Column(name = "Course_Name")
+		private String name;
+		private int duration;
+		
+		
+		@OneToOne(fetch = FetchType.LAZY)
+		private Faculty fac;
+		
+
+		public Course() {
+			super();
+		}
+
+		public Course(String name, int duration, Faculty fac) {
+			super();
+			this.name = name;
+			this.duration = duration;
+			this.fac = fac;
+		}
+
+		public Course(int id, String name, int duration, Faculty fac) {
+			super();
+			this.id = id;
+			this.name = name;
+			this.duration = duration;
+			this.fac = fac;
+		}
+
+		public int getId() {
+			return id;
+		}
+
+		public void setId(int id) {
+			this.id = id;
+		}
+
+		public String getName() {
+			return name;
+		}
+
+		public void setName(String name) {
+			this.name = name;
+		}
+
+		public int getDuration() {
+			return duration;
+		}
+
+		public void setDuration(int duration) {
+			this.duration = duration;
+		}
+
+		public Faculty getFac() {
+			return fac;
+		}
+
+		public void setFac(Faculty fac) {
+			this.fac = fac;
+		}
+
+		@Override
+		public String toString() {
+			return "Course [id=" + id + ", name=" + name + ", duration=" + duration + ", fac=" + fac + "]";
+		}
+
+		
+		
+		
+	}
+
+

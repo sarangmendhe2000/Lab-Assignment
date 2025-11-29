@@ -1,0 +1,41 @@
+package com.demo.test;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+import com.demo.beans.Course;
+import com.demo.beans.Faculty;
+
+public class TestGetData {
+
+	public static void main(String[] args) {		
+		
+		SessionFactory sf = new Configuration().configure().buildSessionFactory();
+		
+		Session session = sf.openSession();
+		
+		Transaction tr = session.beginTransaction();
+		
+		Faculty f1 = session.get(Faculty.class, 101);
+		
+		Course c1 = session.get(Course.class, 3);
+		
+		System.out.println("Course");
+		System.out.println(c1);
+		System.out.println("-----------------------------------------");
+		System.out.println("Faculty");
+		System.out.println(f1);
+		
+	
+		
+		tr.commit();
+		
+		session.close();
+		
+		sf.close();
+		
+	}
+
+}
