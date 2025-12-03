@@ -57,6 +57,36 @@ public class EmployeeServiceImpl implements EmployeeService {
 		
 		return edao.showEmp();
 	}
+
+	@Override
+	public boolean deleteById(int id) {
+		
+		return pdao.removeById(id);
+	}
+
+	@Override
+	public boolean updateById(int id, double sal, String name) {
+		
+		return edao.modifyById(id,sal,name);
+	}
+
+	@Override
+	public boolean assignProject(int eid, int pid) {
+	Project p=	pdao.findById(pid);
+	Employee e=edao.findById(eid);
+	
+	if(p!=null && e!=null) {
+		return edao.addProjectToEmp(p,e);
+	}
+		
+		return false;
+	}
+
+	@Override
+	public List<Employee> sortBySal() {
+		
+		return edao.sortEmpBySal();
+	}
 	
 
 }

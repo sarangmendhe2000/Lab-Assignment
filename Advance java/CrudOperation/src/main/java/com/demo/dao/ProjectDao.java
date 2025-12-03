@@ -10,4 +10,6 @@ public interface ProjectDao {
 
 	Set<Project> findById(String[] parr);
 
+	boolean removeById(int id);
+   Project findById(int id);
 }

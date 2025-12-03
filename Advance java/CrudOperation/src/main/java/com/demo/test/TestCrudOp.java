@@ -24,7 +24,9 @@ public class TestCrudOp {
     	System.out.println("3. Show all Employee");
     	System.out.println("4. Add Project");
     	System.out.println("5.Update Employee salary");
-    	System.out.println("Enter 6 for Exit");
+    	System.out.println("6. Add Employee in Existing project");
+    	System.out.println("7. Display Employee in Sorted Order By salary");
+    	System.out.println("Enter 8 for Exit");
     	System.out.println("Enter choice");
     	choice=sc.nextInt();
     
@@ -41,6 +43,21 @@ public class TestCrudOp {
 			 }
 		}
 		
+		case 2 ->{
+			System.out.println("Enter Employee Id For Deletion -");
+			int id = sc.nextInt();
+			
+			boolean status = eservice.deleteById(id);
+			if(status)
+			{
+				System.out.println("Deleted Successfully ! ");
+			}
+			else
+			{
+				System.out.println("Error : Please Try Again");
+			}
+		}
+		
 		case 3 ->{
 			List<Employee> elist = eservice.showAllEmp();
 			elist.stream().forEach(System.out::println);
@@ -55,11 +72,47 @@ public class TestCrudOp {
 				 System.out.println("Error: Not Added");
 			 }
 		}
-		
-	  	
+		case 5->{
+			System.out.println("Enter Employee Id For Update");
+			int id=sc.nextInt();
+			System.out.println("Enter New salary");
+			double sal=sc.nextDouble();
+			System.out.println("Enter new Name");
+			String name=sc.next();
+			boolean status=eservice.updateById(id,sal,name);
+			if(status) {
+				System.out.println("Updated Succsessfully..!");
+			}
+			else {
+				System.out.println("Error: not updated");
+			}
+		}
+		case 6->{
+			
+			System.out.println("Enter Employee id");
+			int eid = sc.nextInt();
+			System.out.println("Enter Project Id ");
+			int pid = sc.nextInt();
+			
+			boolean status = eservice.assignProject(eid , pid);
+			if(status)
+			{
+				System.out.println("Project Assign Successfully ! ");
+			}
+			else
+			{
+				System.out.println("Error:  Something went Wrong ");
+			}
+		}	
+		case 7 ->{
+			
+			List<Employee> elist = eservice.sortBySal();
+			elist.stream().forEach(System.out::println);
+			
+		}
 		}
     }
-    while(choice!=6);
+    while(choice!=8);
 	}
 
 }
