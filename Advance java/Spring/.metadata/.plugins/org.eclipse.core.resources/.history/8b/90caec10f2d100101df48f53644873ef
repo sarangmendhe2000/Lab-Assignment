@@ -1,0 +1,65 @@
+package com.demo.service;
+
+import java.util.List;
+import java.util.Scanner;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.demo.bean.Product;
+import com.demo.dao.ProductDao;
+
+@Service
+public class ProductServiceImpl implements ProductService {
+	
+	@Autowired
+	private ProductDao pdao;
+
+	@Override
+	public boolean addProduct() {
+
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter Product Id ");
+		int id = sc.nextInt();
+		System.out.println("Enter Product name");
+		String pname = sc.next();
+		System.out.println("Enter Qty");
+		int qty = sc.nextInt();
+		System.out.println("Enter Price");
+		double price = sc.nextDouble();
+		System.out.println("Enter category Id ");
+		int cid = sc.nextInt();
+		
+		Product p = new Product(id , pname , qty , price , cid);
+		
+		return pdao.save(p);
+	}
+
+	@Override
+	public List<Product> displayAll() {
+	
+		return pdao.display();
+	}
+
+	@Override
+	public boolean updateById(int id, double price) {
+		
+		return pdao.modifyById(id , price);
+	}
+
+	@Override
+	public boolean deleteById(int id) {
+		
+		return pdao.removeById(id);
+	}
+
+	@Override
+	public Product findByProductId(int id) {
+		
+		return searchByProductId(id);
+	}
+	
+	
+	
+
+}

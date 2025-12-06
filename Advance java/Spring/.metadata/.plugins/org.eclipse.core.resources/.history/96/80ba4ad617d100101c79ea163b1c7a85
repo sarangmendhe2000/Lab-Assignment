@@ -1,0 +1,11 @@
+package com.demo.bean;
+
+public class Faculty {
+	
+	private int facid;
+	private String facName;
+	
+	private Skill skl;
+	private 
+
+}

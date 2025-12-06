@@ -1,0 +1,23 @@
+package com.demo.bean;
+
+public class Faculty {
+	
+	private int facid;
+	private String facName;
+	
+	private Skill skl;
+	private Address addr;
+	public Faculty() {
+		super();
+	}
+	public Faculty(int facid, String facName, Skill skl, Address addr) {
+		super();
+		this.facid = facid;
+		this.facName = facName;
+		this.skl = skl;
+		this.addr = addr;
+	}
+	
+	
+
+}

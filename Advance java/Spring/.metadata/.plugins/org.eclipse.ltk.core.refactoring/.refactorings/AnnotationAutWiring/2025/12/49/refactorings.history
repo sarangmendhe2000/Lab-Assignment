@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;TestAnnotation.java&apos; to &apos;PropertyPlaceHolder/src/main/java/com.demo.Test&apos;&#x0D;&#x0A;- Original project: &apos;AnnotationAutWiring&apos;&#x0D;&#x0A;- Destination element: &apos;PropertyPlaceHolder/src/main/java/com.demo.Test&apos;&#x0D;&#x0A;- Original element: &apos;com.demo.test.TestAnnotation.java&apos;" description="Copy compilation unit" destination="=PropertyPlaceHolder/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.demo.Test" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.demo.test{TestAnnotation.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1764864731044" units="1" version="1.0"/>
+</session>

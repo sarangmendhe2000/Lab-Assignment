@@ -1,0 +1,24 @@
+package com.demo.bean;
+
+public class Category {
+	
+	private int cid;
+	private String cname;
+	private String desc;
+	
+	
+	public Category() {
+		super();
+	}
+
+
+	public Category(int cid, String cname, String desc) {
+		super();
+		this.cid = cid;
+		this.cname = cname;
+		this.desc = desc;
+	}
+	
+	
+	
+}

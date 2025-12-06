@@ -1,0 +1,44 @@
+package com.demo.bean;
+
+public class Skill {
+	
+	private int skillid;
+	private String skillName;
+	private int exp;
+
+
+	public Skill() {
+		super();
+	}
+	public Skill(int skillid, String skillName, int exp) {
+		super();
+		this.skillid = skillid;
+		this.skillName = skillName;
+		this.exp = exp;
+	}
+	public int getSkillid() {
+		return skillid;
+	}
+	public void setSkillid(int skillid) {
+		this.skillid = skillid;
+	}
+	public String getSkillName() {
+		return skillName;
+	}
+	public void setSkillName(String skillName) {
+		this.skillName = skillName;
+	}
+	public int getExp() {
+		return exp;
+	}
+	public void setExp(int exp) {
+		this.exp = exp;
+	}
+	@Override
+	public String toString() {
+		return "Skill [skillid=" + skillid + ", skillName=" + skillName + ", exp=" + exp + "]";
+	}
+	
+	
+	
+}

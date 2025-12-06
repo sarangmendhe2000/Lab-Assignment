@@ -1,0 +1,78 @@
+package com.demo.bean;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
+@Component
+public class Product {
+	
+	@Value("1001")
+	private int pid
+	
+	private String pname;
+	private int qty;
+	private double price;
+	
+	private Category ctg;
+
+	public Product() {
+		super();
+	}
+
+	public Product(int pid, String pname, int qty, double price, Category ctg) {
+		super();
+		this.pid = pid;
+		this.pname = pname;
+		this.qty = qty;
+		this.price = price;
+		this.ctg = ctg;
+	}
+
+	public int getPid() {
+		return pid;
+	}
+
+	public void setPid(int pid) {
+		this.pid = pid;
+	}
+
+	public String getPname() {
+		return pname;
+	}
+
+	public void setPname(String pname) {
+		this.pname = pname;
+	}
+
+	public int getQty() {
+		return qty;
+	}
+
+	public void setQty(int qty) {
+		this.qty = qty;
+	}
+
+	public double getPrice() {
+		return price;
+	}
+
+	public void setPrice(double price) {
+		this.price = price;
+	}
+
+	public Category getCtg() {
+		return ctg;
+	}
+
+	public void setCtg(Category ctg) {
+		this.ctg = ctg;
+	}
+
+	@Override
+	public String toString() {
+		return "Product [pid=" + pid + ", pname=" + pname + ", qty=" + qty + ", price=" + price + ", ctg=" + ctg + "]";
+	}
+	
+	
+	
+ }

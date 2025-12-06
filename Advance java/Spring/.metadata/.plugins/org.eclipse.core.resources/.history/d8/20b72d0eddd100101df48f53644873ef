@@ -1,0 +1,23 @@
+package com.demo.bean;
+
+public class Product {
+   
+	private int  pid;
+	private String pname;
+	private int qty;
+	private double price;
+	private int cid;
+	public Product() {
+		super();
+	}
+	public Product(int pid, String pname, int qty, double price, int cid) {
+		super();
+		this.pid = pid;
+		this.pname = pname;
+		this.qty = qty;
+		this.price = price;
+		this.cid = cid;
+	}
+	
+	
+}

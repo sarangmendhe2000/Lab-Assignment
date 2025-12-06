@@ -1,0 +1,14 @@
+package com.demo.bean;
+
+public class Category {
+	
+	private int cid;
+	private String cname;
+	private String desc;
+	public Category() {
+		super();
+	}
+	
+	
+	
+}

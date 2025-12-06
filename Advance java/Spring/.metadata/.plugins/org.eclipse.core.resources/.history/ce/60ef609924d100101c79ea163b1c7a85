@@ -1,0 +1,13 @@
+package com.demo.test;
+
+import org.springframework.context.ApplicationContext;
+
+public class TestCollectionDemo {
+
+	public static void main(String[] args) {
+	
+		ApplicationContext ctx = new ClassPathXmlApllicationContext();
+
+	}
+
+}

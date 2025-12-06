@@ -1,0 +1,10 @@
+127.0.0.1 - - [05/Dec/2025:17:00:33 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [05/Dec/2025:17:00:38 +0530] "GET /MyFirstSpringMVCProject/ HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [05/Dec/2025:17:00:38 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [05/Dec/2025:17:00:49 +0530] "GET /MyFirstSpringMVCProject/hello HTTP/1.1" 404 761
+0:0:0:0:0:0:0:1 - - [05/Dec/2025:17:01:37 +0530] "GET /MyFirstSpringMVCProject/ HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [05/Dec/2025:17:02:58 +0530] "GET /MyFirstSpringMVCProject/hello HTTP/1.1" 404 761
+127.0.0.1 - - [05/Dec/2025:17:03:21 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [05/Dec/2025:17:03:24 +0530] "GET /MyFirstSpringMVCProject/ HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [05/Dec/2025:17:03:33 +0530] "GET /MyFirstSpringMVCProject/hello HTTP/1.1" 200 172
+0:0:0:0:0:0:0:1 - - [05/Dec/2025:17:29:33 +0530] "GET /MyFirstSpringMVCProject/test HTTP/1.1" 200 183

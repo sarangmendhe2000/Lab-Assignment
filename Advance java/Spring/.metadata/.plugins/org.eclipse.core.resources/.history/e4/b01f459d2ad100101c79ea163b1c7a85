@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="
+  http://www.springframework.org/schema/beans
+https://www.springframework.org/schema/beans/spring-beans.xsd
+  http://www.springframework.org/schema/context
+https://www.springframework.org/schema/context/spring-context.xsd">
+
+
+
+
+
+
+	<bean id="p1" class="com.demo.bean.Product" > 
+	
+	<property name="pid" value="111"></property>
+	<property name="pname" value="Shirt"></property>
+	<property name="qty" value="88"></property>
+	<property name="price" value="880"></property>
+	
+	</bean>
+	
+	
+	
+	<bean id="p2" class="com.demo.bean.Product" > 
+	
+	<property name="pid" value="222"></property>
+	<property name="pname" value="Skirt"></property>
+	<property name="qty" value="8"></property>
+	<property name="price" value="5500"></property>
+	
+	</bean>
+	
+	
+	
+	
+	
+	<bean id="o1" class="com.demo.bean.Order"  destroy-method = "myDestroy" > 
+	
+	<property name="ordid" value="1111"></property>
+	<property name="cname" value="Sangita"></property>
+	<property name="plist">
+	<list>
+		<ref bean = "p1"></ref>
+		<ref bean = "p2"></ref>
+	
+	</list>
+	</property>
+	
+	</bean>
+	
+
+
+
+</beans>

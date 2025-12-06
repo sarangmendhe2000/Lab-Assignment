@@ -1,0 +1,74 @@
+package com.demo.bean;
+
+import java.util.List;
+
+import org.springframework.beans.BeansException;
+import org.springframework.beans.factory.BeanFactory;
+import org.springframework.beans.factory.BeanFactoryAware;
+import org.springframework.beans.factory.BeanNameAware;
+import org.springframework.beans.factory.DisposableBean;
+import org.springframework.beans.factory.InitializingBean;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.ApplicationContextAware;
+
+public class Order implements BeanNameAware , ApplicationContextAware , BeanFactoryAware , InitializingBean , DisposableBean {
+  private int ordid;
+  private String cname;
+  List <Product> plist;
+public Order() {
+	super();
+}
+public Order(int ordid, String cname, List<Product> plist) {
+	super();
+	this.ordid = ordid;
+	this.cname = cname;
+	this.plist = plist;
+}
+public int getOrdid() {
+	return ordid;
+}
+public void setOrdid(int ordid) {
+	this.ordid = ordid;
+}
+public String getCname() {
+	return cname;
+}
+public void setCname(String cname) {
+	this.cname = cname;
+}
+public List<Product> getPlist() {
+	return plist;
+}
+public void setPlist(List<Product> plist) {
+	this.plist = plist;
+}
+@Override
+public String toString() {
+	return "Order [ordid=" + ordid + ", cname=" + cname + ", plist=" + plist + "]";
+}
+public void setBeanName(String name) {
+	
+	System.out.println("In BeanNameAware method");
+	
+}
+public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
+	
+	System.out.println("In setApplicationContext method");
+	
+}
+public void destroy() throws Exception {
+
+	System.out.println("In destroy method");
+	
+}
+public void afterPropertiesSet() throws Exception {
+	
+	System.out.println("In BeanNameAware method");
+	
+}
+public void setBeanFactory(BeanFactory beanFactory) throws BeansException {
+	System.out.println("In BeanNameAware method");
+	
+}
+
+}

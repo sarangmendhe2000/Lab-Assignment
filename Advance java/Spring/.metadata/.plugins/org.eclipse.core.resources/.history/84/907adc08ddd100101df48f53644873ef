@@ -1,0 +1,15 @@
+package com.demo.bean;
+
+public class Product {
+   
+	private int  pid;
+	private String pname;
+	private int qty;
+	private double price;
+	private int cid;
+	public Product() {
+		super();
+	}
+	
+	
+}

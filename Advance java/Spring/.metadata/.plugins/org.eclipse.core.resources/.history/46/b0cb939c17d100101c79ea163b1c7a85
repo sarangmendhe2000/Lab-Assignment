@@ -1,0 +1,21 @@
+package com.demo.bean;
+
+public class Skill {
+	
+	private int skillid;
+	private String skillName;
+	private int exp;
+	@Override
+	public String toString() {
+		return "Skill []";
+	}
+	public Skill(int skillid, String skillName, int exp) {
+		super();
+		this.skillid = skillid;
+		this.skillName = skillName;
+		this.exp = exp;
+	}
+	
+	
+	
+}
