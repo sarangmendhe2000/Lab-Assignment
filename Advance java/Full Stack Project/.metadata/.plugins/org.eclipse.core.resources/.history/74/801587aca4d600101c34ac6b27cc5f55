@@ -1,0 +1,18 @@
+package com.demo.MySpringbootRestWebService.Dto;
+
+public class LoginDto {
+	
+	private String uname;
+	private String password;
+	public LoginDto() {
+		super();
+	}
+	public LoginDto(String uname, String password) {
+		super();
+		this.uname = uname;
+		this.password = password;
+	}
+	
+	
+	
+}

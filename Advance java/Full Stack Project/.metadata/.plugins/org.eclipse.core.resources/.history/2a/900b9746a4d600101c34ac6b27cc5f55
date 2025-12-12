@@ -1,0 +1,16 @@
+package com.demo.MySpringbootRestWebService.Bean;
+
+public class MyUser {
+				
+	
+	private int id;
+	private String uname;
+	private String email;
+	private String password;
+	public MyUser() {
+		super();
+	}
+	
+	
+	
+}

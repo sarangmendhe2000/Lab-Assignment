@@ -1,0 +1,101 @@
+package com.demo.MySpringbootRestWebService.Controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.demo.MySpringbootRestWebService.Bean.Student;
+import com.demo.MySpringbootRestWebService.Dto.StudentDto;
+import com.demo.MySpringbootRestWebService.Service.StudentService;
+
+@RestController
+public class StudentController {
+	
+	@Autowired
+	private StudentService sservice ;
+	
+	
+	@GetMapping("/student")
+	
+	public ResponseEntity<List<StudentDto>> getAllStudent()
+	{
+		List<StudentDto> slist = sservice.getAllStudent();
+		return ResponseEntity.ok(slist);
+				
+	}
+	
+	
+	@GetMapping("/student/{sid}")
+	public ResponseEntity<StudentDto> getById(@PathVariable int sid)
+	{
+		StudentDto s=sservice.getById(sid);
+		return ResponseEntity.ok(s);
+	}
+	
+	@PostMapping("/addStudent")
+	public ResponseEntity <String> addStudent(@RequestBody StudentDto s)
+	{
+		boolean status=sservice.addStudent(s);
+		if(status)
+		{
+			return ResponseEntity.ok("Student added Successfully");
+		}
+		else
+		{
+			return ResponseEntity.ok("not added");
+		}
+	}
+	
+	
+	@PutMapping("/updateStudent")
+	public ResponseEntity<String> updateById(@RequestBody StudentDto s)
+	{
+		boolean status = sservice.updateById(s);
+		
+		if(status)
+		{
+			return ResponseEntity.ok("Updated Successfully ! ");
+			
+			
+		}
+		else
+		{
+			return ResponseEntity.ok(" Not Updated ! ");
+
+		}
+	}
+	
+	
+	
+	
+	@DeleteMapping("/deleteStudent/{sid}")
+	public ResponseEntity<String> deleteById(@PathVariable int sid)
+	{
+		boolean status = sservice.deleteById(sid);
+		if(status)
+		{
+			return ResponseEntity.ok("Deleted Successfully ! ");
+		}
+		else
+		{
+			return ResponseEntity.ok("Not deleted ");
+		}
+				
+	}
+	
+	
+	@GetMapping("/findRange/{lr}/{hr}")
+	public ResponseEntity<List<Student>> findByIdRange(@PathVariable int lr , @PathVariable int hr)
+	{
+		List<StudentDto> slist = sservice.findByIdRange(lr , hr);
+		
+	}
+}
