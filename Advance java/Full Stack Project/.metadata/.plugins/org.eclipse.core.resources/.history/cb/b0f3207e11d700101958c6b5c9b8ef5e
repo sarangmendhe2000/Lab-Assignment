@@ -1,6 +1,0 @@
-package com.demo.MySpringbootRestWebService.Service;
-
-@Service
-public class LoginServiceImpl {
-
-}

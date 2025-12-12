@@ -1,9 +1,0 @@
-package com.demo.MySpringbootRestWebService.Dao;
-
-import org.springframework.data.jpa.repository.JpaRepository;
-
-import com.demo.MySpringbootRestWebService.Bean.MyUser;
-
-public interface LoginDao extends JpaRepository<MyUser, String> {
-
-}

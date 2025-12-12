@@ -1,7 +1,0 @@
-package com.demo.MySpringbootRestWebService.Dto;
-
-public class LoginDto {
-	
-	private String uname;
-	
-}

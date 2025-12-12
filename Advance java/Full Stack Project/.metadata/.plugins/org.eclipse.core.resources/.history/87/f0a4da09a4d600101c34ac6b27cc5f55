@@ -1,5 +1,0 @@
-package com.demo.MySpringbootRestWebService.Bean;
-
-public class MyUser {
-
-}

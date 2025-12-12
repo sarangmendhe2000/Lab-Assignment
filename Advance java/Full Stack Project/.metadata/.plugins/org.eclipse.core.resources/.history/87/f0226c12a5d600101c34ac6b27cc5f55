@@ -1,5 +1,0 @@
-package com.demo.MySpringbootRestWebService.Dao;
-
-public interface LoginDao  {
-
-}
