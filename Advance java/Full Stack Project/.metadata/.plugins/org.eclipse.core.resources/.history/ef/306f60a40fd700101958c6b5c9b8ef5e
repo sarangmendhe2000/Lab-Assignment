@@ -1,0 +1,15 @@
+package com.demo.MySpringbootRestWebService.Dao;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import com.demo.MySpringbootRestWebService.Bean.MyUser;
+
+@Repository
+public interface LoginDao extends JpaRepository<MyUser, String> {
+
+	@Query(value= "select * from registration where u")
+	MyUser findByUname(String username);
+	
+	
+}

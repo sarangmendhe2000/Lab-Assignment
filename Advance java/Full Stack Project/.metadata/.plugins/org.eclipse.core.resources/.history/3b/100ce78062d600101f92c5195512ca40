@@ -1,0 +1,99 @@
+package com.demo.MySpringbootRestWebService.Service;
+
+import java.util.List;
+import java.util.Optional;
+import java.util.stream.Collectors;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.demo.MySpringbootRestWebService.Bean.Student;
+import com.demo.MySpringbootRestWebService.Dao.StudentDao;
+import com.demo.MySpringbootRestWebService.Dto.StudentDto;
+import com.demo.MySpringbootRestWebService.DtoMapper.StudentDtoMapper;
+
+@Service
+public class StudentServiceImpl implements StudentService {
+	
+	
+	@Autowired
+	private StudentDao sdao;
+	
+	
+	
+
+	@Override
+	public List<StudentDto> getAllStudent() {
+		
+		List<Student> slist = sdao.findAll();
+		
+		List<StudentDto> slist2 = slist.stream().map(stud -> StudentDtoMapper.mapToStudentDto(stud)).collect(Collectors.toList());
+		
+		return slist2;
+	}
+
+
+
+
+	@Override
+	public StudentDto getById(int sid) {
+		Optional<Student> s=sdao.findById(sid);
+		StudentDto s1= StudentDtoMapper.mapToStudentDto(s.get());
+		return s1;
+	}
+
+
+
+
+	@Override
+	public boolean addStudent(StudentDto s) {
+		
+		Student s1 = StudentDtoMapper.mapToStudent(s);
+	    Student s2 = sdao.save(s1);
+	   	return s2!=null;
+	}
+
+
+
+
+	@Override
+	public boolean deleteById(int sid) {
+		
+		Optional<Student> s = sdao.findById(sid);
+		if(s.isPresent())
+		{
+			sdao.delete(s.get());
+			return true;
+		}
+		else
+		{
+			return false;
+		}
+	}
+
+
+
+
+	@Override
+	public boolean updateById(StudentDto s) {
+		
+		Student s1 = StudentDtoMapper.mapToStudent(s);
+		Optional <Student> s2 = sdao.findById(s1.getSid());
+		
+		if(s2.isPresent())
+		{
+			Student stud = s2.get();
+			
+			stud.setSid(s2.get);
+		}
+		return false;
+	}
+	
+	
+	
+	
+	
+	
+	
+
+}
