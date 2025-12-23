@@ -1,0 +1,14 @@
+C:\Users\IET\Desktop\DOTNET2025\Blank_Solution\Properties\obj\Debug\net8.0\Day4_Properties.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\DOTNET2025\Blank_Solution\Properties\obj\Debug\net8.0\Day4_Properties.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\DOTNET2025\Blank_Solution\Properties\obj\Debug\net8.0\Day4_Properties.AssemblyInfo.cs
+C:\Users\IET\Desktop\DOTNET2025\Blank_Solution\Properties\obj\Debug\net8.0\Day4_Properties.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\DOTNET2025\Blank_Solution\Properties\bin\Debug\net8.0\Day4_Properties.exe
+C:\Users\IET\Desktop\DOTNET2025\Blank_Solution\Properties\bin\Debug\net8.0\Day4_Properties.deps.json
+C:\Users\IET\Desktop\DOTNET2025\Blank_Solution\Properties\bin\Debug\net8.0\Day4_Properties.runtimeconfig.json
+C:\Users\IET\Desktop\DOTNET2025\Blank_Solution\Properties\bin\Debug\net8.0\Day4_Properties.dll
+C:\Users\IET\Desktop\DOTNET2025\Blank_Solution\Properties\bin\Debug\net8.0\Day4_Properties.pdb
+C:\Users\IET\Desktop\DOTNET2025\Blank_Solution\Properties\obj\Debug\net8.0\Day4_Properties.dll
+C:\Users\IET\Desktop\DOTNET2025\Blank_Solution\Properties\obj\Debug\net8.0\refint\Day4_Properties.dll
+C:\Users\IET\Desktop\DOTNET2025\Blank_Solution\Properties\obj\Debug\net8.0\Day4_Properties.pdb
+C:\Users\IET\Desktop\DOTNET2025\Blank_Solution\Properties\obj\Debug\net8.0\Day4_Properties.genruntimeconfig.cache
+C:\Users\IET\Desktop\DOTNET2025\Blank_Solution\Properties\obj\Debug\net8.0\ref\Day4_Properties.dll

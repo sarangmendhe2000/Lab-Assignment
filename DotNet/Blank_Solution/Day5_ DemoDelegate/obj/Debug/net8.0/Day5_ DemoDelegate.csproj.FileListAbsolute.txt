@@ -1,0 +1,14 @@
+C:\Users\IET\Desktop\DOTNET2025\Blank_Solution\Day5_ DemoDelegate\bin\Debug\net8.0\Day5_ DemoDelegate.exe
+C:\Users\IET\Desktop\DOTNET2025\Blank_Solution\Day5_ DemoDelegate\bin\Debug\net8.0\Day5_ DemoDelegate.deps.json
+C:\Users\IET\Desktop\DOTNET2025\Blank_Solution\Day5_ DemoDelegate\bin\Debug\net8.0\Day5_ DemoDelegate.runtimeconfig.json
+C:\Users\IET\Desktop\DOTNET2025\Blank_Solution\Day5_ DemoDelegate\bin\Debug\net8.0\Day5_ DemoDelegate.dll
+C:\Users\IET\Desktop\DOTNET2025\Blank_Solution\Day5_ DemoDelegate\bin\Debug\net8.0\Day5_ DemoDelegate.pdb
+C:\Users\IET\Desktop\DOTNET2025\Blank_Solution\Day5_ DemoDelegate\obj\Debug\net8.0\Day5_ DemoDelegate.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\DOTNET2025\Blank_Solution\Day5_ DemoDelegate\obj\Debug\net8.0\Day5_ DemoDelegate.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\DOTNET2025\Blank_Solution\Day5_ DemoDelegate\obj\Debug\net8.0\Day5_ DemoDelegate.AssemblyInfo.cs
+C:\Users\IET\Desktop\DOTNET2025\Blank_Solution\Day5_ DemoDelegate\obj\Debug\net8.0\Day5_ DemoDelegate.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\DOTNET2025\Blank_Solution\Day5_ DemoDelegate\obj\Debug\net8.0\Day5_ DemoDelegate.dll
+C:\Users\IET\Desktop\DOTNET2025\Blank_Solution\Day5_ DemoDelegate\obj\Debug\net8.0\refint\Day5_ DemoDelegate.dll
+C:\Users\IET\Desktop\DOTNET2025\Blank_Solution\Day5_ DemoDelegate\obj\Debug\net8.0\Day5_ DemoDelegate.pdb
+C:\Users\IET\Desktop\DOTNET2025\Blank_Solution\Day5_ DemoDelegate\obj\Debug\net8.0\Day5_ DemoDelegate.genruntimeconfig.cache
+C:\Users\IET\Desktop\DOTNET2025\Blank_Solution\Day5_ DemoDelegate\obj\Debug\net8.0\ref\Day5_ DemoDelegate.dll

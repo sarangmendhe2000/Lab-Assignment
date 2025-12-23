@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\IET\\Desktop\\DOTNET2025\\Blank_Solution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A7B453FD-9066-4564-A8ED-DA86D6A882CB}|Day7_CsharpFeatures\\Day7_CsharpFeatures.csproj|c:\\users\\iet\\desktop\\dotnet2025\\blank_solution\\day7_csharpfeatures\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7B453FD-9066-4564-A8ED-DA86D6A882CB}|Day7_CsharpFeatures\\Day7_CsharpFeatures.csproj|solutionrelative:day7_csharpfeatures\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7B453FD-9066-4564-A8ED-DA86D6A882CB}|Day7_CsharpFeatures\\Day7_CsharpFeatures.csproj|c:\\users\\iet\\desktop\\dotnet2025\\blank_solution\\day7_csharpfeatures\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7B453FD-9066-4564-A8ED-DA86D6A882CB}|Day7_CsharpFeatures\\Day7_CsharpFeatures.csproj|solutionrelative:day7_csharpfeatures\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7B453FD-9066-4564-A8ED-DA86D6A882CB}|Day7_CsharpFeatures\\Day7_CsharpFeatures.csproj|c:\\users\\iet\\desktop\\dotnet2025\\blank_solution\\day7_csharpfeatures\\emp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7B453FD-9066-4564-A8ED-DA86D6A882CB}|Day7_CsharpFeatures\\Day7_CsharpFeatures.csproj|solutionrelative:day7_csharpfeatures\\emp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7B453FD-9066-4564-A8ED-DA86D6A882CB}|Day7_CsharpFeatures\\Day7_CsharpFeatures.csproj|c:\\users\\iet\\desktop\\dotnet2025\\blank_solution\\day7_csharpfeatures\\demo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7B453FD-9066-4564-A8ED-DA86D6A882CB}|Day7_CsharpFeatures\\Day7_CsharpFeatures.csproj|solutionrelative:day7_csharpfeatures\\demo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7B453FD-9066-4564-A8ED-DA86D6A882CB}|Day7_CsharpFeatures\\Day7_CsharpFeatures.csproj|c:\\users\\iet\\desktop\\dotnet2025\\blank_solution\\day7_csharpfeatures\\file2\\cmath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7B453FD-9066-4564-A8ED-DA86D6A882CB}|Day7_CsharpFeatures\\Day7_CsharpFeatures.csproj|solutionrelative:day7_csharpfeatures\\file2\\cmath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7B453FD-9066-4564-A8ED-DA86D6A882CB}|Day7_CsharpFeatures\\Day7_CsharpFeatures.csproj|c:\\users\\iet\\desktop\\dotnet2025\\blank_solution\\day7_csharpfeatures\\file1\\cmath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7B453FD-9066-4564-A8ED-DA86D6A882CB}|Day7_CsharpFeatures\\Day7_CsharpFeatures.csproj|solutionrelative:day7_csharpfeatures\\file1\\cmath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{250C2499-764C-408D-A8BA-77F8D009C76C}|Day7_MyORM\\Day7_MyORM.csproj|c:\\users\\iet\\desktop\\dotnet2025\\blank_solution\\day7_myorm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{250C2499-764C-408D-A8BA-77F8D009C76C}|Day7_MyORM\\Day7_MyORM.csproj|solutionrelative:day7_myorm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Test.cs",
+              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\DOTNET2025\\Blank_Solution\\Day7_CsharpFeatures\\Test.cs",
+              "RelativeDocumentMoniker": "Day7_CsharpFeatures\\Test.cs",
+              "ToolTip": "C:\\Users\\IET\\Desktop\\DOTNET2025\\Blank_Solution\\Day7_CsharpFeatures\\Test.cs",
+              "RelativeToolTip": "Day7_CsharpFeatures\\Test.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T09:19:27.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Emp.cs",
+              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\DOTNET2025\\Blank_Solution\\Day7_CsharpFeatures\\Emp.cs",
+              "RelativeDocumentMoniker": "Day7_CsharpFeatures\\Emp.cs",
+              "ToolTip": "C:\\Users\\IET\\Desktop\\DOTNET2025\\Blank_Solution\\Day7_CsharpFeatures\\Emp.cs",
+              "RelativeToolTip": "Day7_CsharpFeatures\\Emp.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T09:16:27.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Demo.cs",
+              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\DOTNET2025\\Blank_Solution\\Day7_CsharpFeatures\\Demo.cs",
+              "RelativeDocumentMoniker": "Day7_CsharpFeatures\\Demo.cs",
+              "ToolTip": "C:\\Users\\IET\\Desktop\\DOTNET2025\\Blank_Solution\\Day7_CsharpFeatures\\Demo.cs",
+              "RelativeToolTip": "Day7_CsharpFeatures\\Demo.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T09:10:53.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\DOTNET2025\\Blank_Solution\\Day7_CsharpFeatures\\Program.cs",
+              "RelativeDocumentMoniker": "Day7_CsharpFeatures\\Program.cs",
+              "ToolTip": "C:\\Users\\IET\\Desktop\\DOTNET2025\\Blank_Solution\\Day7_CsharpFeatures\\Program.cs",
+              "RelativeToolTip": "Day7_CsharpFeatures\\Program.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAgwI8AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T09:04:28.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CMath.cs",
+              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\DOTNET2025\\Blank_Solution\\Day7_CsharpFeatures\\file2\\CMath.cs",
+              "RelativeDocumentMoniker": "Day7_CsharpFeatures\\file2\\CMath.cs",
+              "ToolTip": "C:\\Users\\IET\\Desktop\\DOTNET2025\\Blank_Solution\\Day7_CsharpFeatures\\file2\\CMath.cs",
+              "RelativeToolTip": "Day7_CsharpFeatures\\file2\\CMath.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T09:02:32.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CMath.cs",
+              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\DOTNET2025\\Blank_Solution\\Day7_CsharpFeatures\\File1\\CMath.cs",
+              "RelativeDocumentMoniker": "Day7_CsharpFeatures\\File1\\CMath.cs",
+              "ToolTip": "C:\\Users\\IET\\Desktop\\DOTNET2025\\Blank_Solution\\Day7_CsharpFeatures\\File1\\CMath.cs",
+              "RelativeToolTip": "Day7_CsharpFeatures\\File1\\CMath.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T09:02:29.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\DOTNET2025\\Blank_Solution\\Day7_MyORM\\Program.cs",
+              "RelativeDocumentMoniker": "Day7_MyORM\\Program.cs",
+              "ToolTip": "C:\\Users\\IET\\Desktop\\DOTNET2025\\Blank_Solution\\Day7_MyORM\\Program.cs",
+              "RelativeToolTip": "Day7_MyORM\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T14:34:53.754Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

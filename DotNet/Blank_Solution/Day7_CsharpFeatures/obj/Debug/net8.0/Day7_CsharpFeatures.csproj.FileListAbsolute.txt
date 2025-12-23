@@ -1,0 +1,14 @@
+C:\Users\IET\Desktop\DOTNET2025\Blank_Solution\Day7_CsharpFeatures\obj\Debug\net8.0\Day7_CsharpFeatures.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\DOTNET2025\Blank_Solution\Day7_CsharpFeatures\obj\Debug\net8.0\Day7_CsharpFeatures.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\DOTNET2025\Blank_Solution\Day7_CsharpFeatures\obj\Debug\net8.0\Day7_CsharpFeatures.AssemblyInfo.cs
+C:\Users\IET\Desktop\DOTNET2025\Blank_Solution\Day7_CsharpFeatures\obj\Debug\net8.0\Day7_CsharpFeatures.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\DOTNET2025\Blank_Solution\Day7_CsharpFeatures\bin\Debug\net8.0\Day7_CsharpFeatures.exe
+C:\Users\IET\Desktop\DOTNET2025\Blank_Solution\Day7_CsharpFeatures\bin\Debug\net8.0\Day7_CsharpFeatures.deps.json
+C:\Users\IET\Desktop\DOTNET2025\Blank_Solution\Day7_CsharpFeatures\bin\Debug\net8.0\Day7_CsharpFeatures.runtimeconfig.json
+C:\Users\IET\Desktop\DOTNET2025\Blank_Solution\Day7_CsharpFeatures\bin\Debug\net8.0\Day7_CsharpFeatures.dll
+C:\Users\IET\Desktop\DOTNET2025\Blank_Solution\Day7_CsharpFeatures\bin\Debug\net8.0\Day7_CsharpFeatures.pdb
+C:\Users\IET\Desktop\DOTNET2025\Blank_Solution\Day7_CsharpFeatures\obj\Debug\net8.0\Day7_CsharpFeatures.dll
+C:\Users\IET\Desktop\DOTNET2025\Blank_Solution\Day7_CsharpFeatures\obj\Debug\net8.0\refint\Day7_CsharpFeatures.dll
+C:\Users\IET\Desktop\DOTNET2025\Blank_Solution\Day7_CsharpFeatures\obj\Debug\net8.0\Day7_CsharpFeatures.pdb
+C:\Users\IET\Desktop\DOTNET2025\Blank_Solution\Day7_CsharpFeatures\obj\Debug\net8.0\Day7_CsharpFeatures.genruntimeconfig.cache
+C:\Users\IET\Desktop\DOTNET2025\Blank_Solution\Day7_CsharpFeatures\obj\Debug\net8.0\ref\Day7_CsharpFeatures.dll

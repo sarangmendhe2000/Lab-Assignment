@@ -1,0 +1,6 @@
+C:\Users\IET\Desktop\DOTNET2025\Blank_Solution\Day4_ClassLibrary\bin\Debug\Day4_ClassLibrary.dll
+C:\Users\IET\Desktop\DOTNET2025\Blank_Solution\Day4_ClassLibrary\bin\Debug\Day4_ClassLibrary.pdb
+C:\Users\IET\Desktop\DOTNET2025\Blank_Solution\Day4_ClassLibrary\obj\Debug\Day4_ClassLibrary.csproj.AssemblyReference.cache
+C:\Users\IET\Desktop\DOTNET2025\Blank_Solution\Day4_ClassLibrary\obj\Debug\Day4_ClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\DOTNET2025\Blank_Solution\Day4_ClassLibrary\obj\Debug\Day4_ClassLibrary.dll
+C:\Users\IET\Desktop\DOTNET2025\Blank_Solution\Day4_ClassLibrary\obj\Debug\Day4_ClassLibrary.pdb

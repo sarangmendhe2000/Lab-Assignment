@@ -1,0 +1,14 @@
+C:\Users\IET\Desktop\DOTNET2025\Oops_Interface\bin\Debug\net8.0\Oops_Interface.exe
+C:\Users\IET\Desktop\DOTNET2025\Oops_Interface\bin\Debug\net8.0\Oops_Interface.deps.json
+C:\Users\IET\Desktop\DOTNET2025\Oops_Interface\bin\Debug\net8.0\Oops_Interface.runtimeconfig.json
+C:\Users\IET\Desktop\DOTNET2025\Oops_Interface\bin\Debug\net8.0\Oops_Interface.dll
+C:\Users\IET\Desktop\DOTNET2025\Oops_Interface\bin\Debug\net8.0\Oops_Interface.pdb
+C:\Users\IET\Desktop\DOTNET2025\Oops_Interface\obj\Debug\net8.0\Oops_Interface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\DOTNET2025\Oops_Interface\obj\Debug\net8.0\Oops_Interface.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\DOTNET2025\Oops_Interface\obj\Debug\net8.0\Oops_Interface.AssemblyInfo.cs
+C:\Users\IET\Desktop\DOTNET2025\Oops_Interface\obj\Debug\net8.0\Oops_Interface.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\DOTNET2025\Oops_Interface\obj\Debug\net8.0\Oops_Interface.dll
+C:\Users\IET\Desktop\DOTNET2025\Oops_Interface\obj\Debug\net8.0\refint\Oops_Interface.dll
+C:\Users\IET\Desktop\DOTNET2025\Oops_Interface\obj\Debug\net8.0\Oops_Interface.pdb
+C:\Users\IET\Desktop\DOTNET2025\Oops_Interface\obj\Debug\net8.0\Oops_Interface.genruntimeconfig.cache
+C:\Users\IET\Desktop\DOTNET2025\Oops_Interface\obj\Debug\net8.0\ref\Oops_Interface.dll

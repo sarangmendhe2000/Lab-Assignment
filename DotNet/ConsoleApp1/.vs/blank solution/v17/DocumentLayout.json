@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\IET\\Desktop\\DOTNET2025\\ConsoleApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{39390E4E-4164-4509-92E5-9AEF1F95ACBE}|..\\Singleton\\Singleton.csproj|c:\\users\\iet\\desktop\\dotnet2025\\singleton\\databasefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39390E4E-4164-4509-92E5-9AEF1F95ACBE}|..\\Singleton\\Singleton.csproj|c:\\users\\iet\\desktop\\dotnet2025\\singleton\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DatabaseFactory.cs",
+              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\DOTNET2025\\Singleton\\DatabaseFactory.cs",
+              "RelativeDocumentMoniker": "..\\Singleton\\DatabaseFactory.cs",
+              "ToolTip": "C:\\Users\\IET\\Desktop\\DOTNET2025\\Singleton\\DatabaseFactory.cs",
+              "RelativeToolTip": "..\\Singleton\\DatabaseFactory.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T14:09:38.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\DOTNET2025\\Singleton\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Singleton\\Program.cs",
+              "ToolTip": "C:\\Users\\IET\\Desktop\\DOTNET2025\\Singleton\\Program.cs",
+              "RelativeToolTip": "..\\Singleton\\Program.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T14:09:08.216Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

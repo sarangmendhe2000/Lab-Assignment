@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Day4_ConsoleApp1/1.0.0": {
+        "dependencies": {
+          "Day4_ClassLibrary": "1.0.0"
+        },
+        "runtime": {
+          "Day4_ConsoleApp1.dll": {}
+        }
+      },
+      "Day4_ClassLibrary/1.0.0": {
+        "runtime": {
+          "Day4_ClassLibrary.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Day4_ConsoleApp1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Day4_ClassLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
