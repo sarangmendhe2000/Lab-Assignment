@@ -136,13 +136,151 @@ namespace Day7_CsharpFeatures
             // Console.WriteLine(result);
             #endregion
 
-            List<Holder>  dbholders = new List<Holder>() { 
-            
-            new Holder(){id = db,name = db,address = db}
-            
-            };
-          Emp emp= new Emp() { id=101,name="sangita",};
+            //  List<Holder>  dbholders = new List<Holder>() { 
 
+            //  new Holder(){id = 12,name ="ABC" ,address = "XYZ" }
+
+            //  };
+            //Emp emp= new Emp() { id=101,name="sangita",};
+
+            #region Check method with normal function
+
+            //Check method using normal call 
+
+
+            //bool result =  Check.CheckNum(5);
+
+            //if(result)
+            //{
+            //    Console.WriteLine("Number is greater than 10");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Number is smaller than 10");
+            //}
+            #endregion
+
+            #region Check method with deleagte
+
+            //Console.WriteLine("Enter number");
+            //int no = Convert.ToInt32(Console.ReadLine());
+
+            //Mydelegate del1 = new Mydelegate(Check.CheckNum);
+
+            //bool result = del1.Invoke(no);
+
+            //if (result)
+            //{
+            //    Console.WriteLine("Number is greater than 10");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Result is smaller than 10");
+            //} 
+            #endregion
+
+            #region Anonomous method with delegate
+            //Mydelegate del = new Mydelegate(delegate (int num)
+            //{
+            //    return num > 10;
+
+            //}
+            //  Mydelegate del = (delegate (int num)
+            //  {
+            //      return num > 10;
+
+            //  }
+
+            //);
+
+            //  var result = del.Invoke(25);
+
+            //  if (result)
+            //  {
+            //      Console.WriteLine("Number is greater than 10");
+            //  }
+            //  else
+            //  {
+            //      Console.WriteLine("Number is smaller than 10");
+            //  } 
+            #endregion
+
+            #region Lambda Expression with delegate
+            //Mydelegate del = num => num > 10;
+
+            //var result = del(-21);
+
+            //if (result)
+            //{
+            //    Console.WriteLine("Number is greater than 10");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Number is smaller than 10");
+            //} 
+            #endregion
+
+            #region Predicate 
+            //Predicate<int> del = num => num > 10;
+
+            //var result = del.Invoke(2);
+
+            //if (result)
+            //{
+            //    Console.WriteLine(" Using Predicate Number is greater than 10");
+            //}
+            //else
+            //{
+            //    Console.WriteLine(" Using Predicate Number is smaller than 10");
+            //} 
+            #endregion
+
+            #region Extension Method
+            //int[] arr = new int[] { 1, 2, 3, 4, 5 };
+            //var result = arr.Sum();
+
+            //Console.WriteLine($"sum :{result}");
+
+
+            ////userdefine sum method
+
+            //var result2 = Sum.MySum(arr);
+            //Console.WriteLine($"Sum :{result2}");
+
+
+            //string[] names = new string[] { "shivmudra", "Shivsvi" };
+            //var result3 = Sum.MySum(names);
+            //Console.WriteLine(result3); 
+            #endregion
+
+            #region EmailCheck Extension
+            //Email Check
+
+
+            //Console.WriteLine("Enter Email");
+            //string email = Console.ReadLine();
+
+            //var str = Email.CheckEmail(email);
+
+            //if(str)
+            //{
+            //    Console.WriteLine("Valid Email");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Invalid Email");
+            //} 
+            #endregion
+
+            int[] num = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, };
+
+           List<int> list =  num.ConvertList(123);
+
+            foreach (int i in list) 
+            {
+                Console.WriteLine(i);
+            }
+              
         }
     }
 }
