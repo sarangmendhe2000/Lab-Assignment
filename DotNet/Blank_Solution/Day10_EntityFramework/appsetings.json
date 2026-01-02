@@ -1,0 +1,7 @@
+{
+  "connectionstring" {
+
+    "Data" "Source=(LocalDB)\\MSSQLLocalDB;Initial",
+    "Catalog=sarang;Integrated" "Security=True;Encrypt=True"
+  }
+}

@@ -1,0 +1,5 @@
+C:\Users\IET\Desktop\DOTNET2025\Blank_Solution\Day10_Entity_Framework\obj\Debug\net8.0\Day10_Entity_Framework.csproj.AssemblyReference.cache
+C:\Users\IET\Desktop\DOTNET2025\Blank_Solution\Day10_Entity_Framework\obj\Debug\net8.0\Day10_Entity_Framework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\DOTNET2025\Blank_Solution\Day10_Entity_Framework\obj\Debug\net8.0\Day10_Entity_Framework.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\DOTNET2025\Blank_Solution\Day10_Entity_Framework\obj\Debug\net8.0\Day10_Entity_Framework.AssemblyInfo.cs
+C:\Users\IET\Desktop\DOTNET2025\Blank_Solution\Day10_Entity_Framework\obj\Debug\net8.0\Day10_Entity_Framework.csproj.CoreCompileInputs.cache
